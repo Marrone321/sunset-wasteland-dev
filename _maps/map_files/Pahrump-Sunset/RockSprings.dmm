@@ -109,10 +109,7 @@
 	},
 /area/space)
 "an" = (
-/obj/structure/flora/rock/jungle{
-	icon_state = "bushc1"
-	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/indestructible/ground/outside/graveldirt,
 /area/space)
 "ao" = (
 /obj/effect/decal/cleanable/dirt,
@@ -133,16 +130,14 @@
 	},
 /area/space)
 "ar" = (
-/obj/structure/barricade/bars,
-/obj/structure/barricade/wooden/planks{
-	icon_state = "board-2"
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = 6;
+	pixel_y = 2
 	},
 /obj/structure/decoration/rag,
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/closed/wall/f13/sunset/brick_small_dark,
+/area/space)
 "as" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -226,10 +221,11 @@
 	},
 /area/space)
 "aP" = (
-/obj/structure/flora/rock/jungle{
-	icon_state = "grassa4"
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/closed/wall/f13/sunset/brick_small_dark,
 /area/space)
 "aQ" = (
 /obj/structure/table,
@@ -238,6 +234,10 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
+/area/space)
+"aU" = (
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "aW" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/cooking,
@@ -295,13 +295,13 @@
 /turf/open/indestructible/ground/outside/road,
 /area/space)
 "bt" = (
-/obj/structure/barricade/tentclothcorner{
-	dir = 1
-	},
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag,
 /turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+	dir = 4;
+	icon_state = "graveldirtedge"
 	},
-/area/f13/legion)
+/area/space)
 "bw" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
@@ -339,7 +339,7 @@
 "bG" = (
 /obj/item/chair/wood,
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "bJ" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
@@ -411,6 +411,11 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"cr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/bench,
+/turf/open/floor/carpet/black,
+/area/space)
 "cu" = (
 /obj/structure/simple_door/metal/store,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -434,18 +439,18 @@
 	},
 /area/space)
 "cP" = (
-/obj/structure/flora/tree/tall{
-	density = 0;
-	icon_state = "tree_3";
-	pixel_x = -29;
-	pixel_y = 17;
-	tag = "icon-tree_3"
+/obj/structure/fence/corner/wooden{
+	dir = 4
 	},
-/turf/open/indestructible/ground/outside/desert/harsh,
+/turf/open/indestructible/ground/outside/dirt/harsh{
+	dir = 4;
+	icon_state = "dirt"
+	},
 /area/space)
 "cW" = (
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/wood,
+/obj/structure/closet/crate/large,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "cX" = (
 /obj/machinery/light{
@@ -462,6 +467,10 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
 	},
+/area/space)
+"dg" = (
+/obj/structure/barricade/bars,
+/turf/open/indestructible/ground/inside/mountain,
 /area/space)
 "dh" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -524,10 +533,6 @@
 	dir = 1
 	},
 /area/space)
-"dJ" = (
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "dK" = (
 /obj/structure/flora/tree/joshua,
 /turf/open/indestructible/ground/outside/dirt/harsh,
@@ -568,10 +573,15 @@
 	},
 /area/space)
 "ek" = (
-/obj/structure/flora/rock/jungle{
-	icon_state = "rock5"
+/obj/structure/fence/corner/wooden{
+	dir = 1
 	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/obj/item/flag/legion,
+/turf/open/indestructible/ground/outside/dirt/harsh{
+	dir = 8;
+	icon_state = "dirt";
+	tag = "icon-dirt (WEST)"
+	},
 /area/space)
 "em" = (
 /obj/structure/table/wood/junk,
@@ -583,9 +593,10 @@
 	},
 /area/space)
 "ep" = (
+/obj/structure/kitchenspike,
+/obj/item/kitchen/knife/butcher,
 /turf/open/indestructible/ground/outside/graveldirt{
-	icon_state = "graveldirtedge";
-	dir = 4
+	dir = 1
 	},
 /area/space)
 "eu" = (
@@ -731,14 +742,11 @@
 	},
 /area/space)
 "fC" = (
-/obj/structure/chair/bench,
-/obj/effect/decal/cleanable/blood/old,
-/obj/effect/decal/cleanable/blood/old{
-	icon_state = "floor2";
-	pixel_y = -15
+/obj/structure/simple_door/metal/barred{
+	name = "Slave Keep"
 	},
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
 "fG" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/plasteel/f13{
@@ -802,6 +810,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
 	},
+/area/space)
+"go" = (
+/obj/structure/simple_door/metal/barred{
+	name = "Slave Keep"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "gq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -959,10 +973,6 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
-"hT" = (
-/obj/machinery/mineral/ore_redemption,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "ic" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontalcorroded"
@@ -1024,13 +1034,11 @@
 /turf/open/indestructible/ground/outside/road,
 /area/space)
 "iE" = (
-/obj/structure/barricade/tentclothedge{
-	pixel_y = -4
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
-/area/f13/legion)
+/turf/closed/wall/f13/sunset/brick_small_dark,
+/area/space)
 "iF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1040,12 +1048,9 @@
 	},
 /area/space)
 "iK" = (
-/obj/structure/rack,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/stack/medical/gauze,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/wood,
+/area/space)
 "iL" = (
 /obj/structure/nest/raider{
 	pixel_x = -1;
@@ -1105,12 +1110,8 @@
 /area/space)
 "iX" = (
 /obj/structure/barricade/wooden,
-/obj/structure/decoration/rag,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/legion)
+/turf/closed/mineral/random/low_chance,
+/area/space)
 "iZ" = (
 /obj/item/storage/backpack/botany,
 /obj/effect/decal/cleanable/dirt,
@@ -1136,19 +1137,12 @@
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
 "jm" = (
-/obj/structure/barricade/bars,
-/obj/structure/barricade/wooden/planks{
-	icon_state = "board-2"
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
 	},
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag,
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "jq" = (
 /obj/structure/closet/crate,
 /obj/effect/decal/cleanable/dirt{
@@ -1192,6 +1186,10 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"jJ" = (
+/obj/structure/reagent_dispensers/barrel/four,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "jN" = (
 /turf/open/indestructible/ground/outside/dirt/harsh/side{
 	dir = 8
@@ -1215,11 +1213,11 @@
 	},
 /area/space)
 "jW" = (
-/obj/machinery/gibber,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
 	},
-/area/f13/legion)
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "kf" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
@@ -1255,11 +1253,12 @@
 	},
 /area/space)
 "kC" = (
-/obj/structure/closet/fridge,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4;
+	light_color = "#f4e3b0"
 	},
-/area/f13/legion)
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "kH" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	icon_state = "dirt";
@@ -1273,16 +1272,15 @@
 	},
 /area/space)
 "kU" = (
+/turf/open/floor/wood_worn/wood_worn_dark,
+/area/space)
+"kV" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
+	dir = 8;
 	light_color = "#f4e3b0"
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
-"kV" = (
-/obj/structure/barricade/wooden,
-/turf/closed/wall/f13/wood,
-/area/f13/legion)
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "lb" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -1305,9 +1303,15 @@
 	},
 /area/space)
 "lk" = (
-/obj/effect/turf_decal/weather/dirt,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/table/wood,
+/obj/machinery/processor/chopping_block,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
+	},
+/area/space)
 "lq" = (
 /obj/machinery/light{
 	dir = 8
@@ -1349,9 +1353,9 @@
 	},
 /area/space)
 "lF" = (
-/obj/structure/wreck/trash/autoshaft,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/effect/turf_decal/weather/dirt,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "lK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -1364,9 +1368,10 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "lO" = (
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/barricade/wooden/planks,
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/sunset/brick_small_dark,
+/area/space)
 "lW" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -1464,23 +1469,26 @@
 	},
 /area/space)
 "mD" = (
-/obj/structure/table/wood,
-/obj/item/paper/crumpled/awaymissions/caves{
-	info = "Work hard or bear the penalty!";
-	name = "legion notice"
+/obj/structure/barricade/bars,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/decoration/rag,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "mG" = (
-/obj/structure/table/wood,
-/obj/machinery/processor/chopping_block,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
 /turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+	dir = 4;
+	icon_state = "graveldirtedge"
 	},
-/area/f13/legion)
+/area/space)
 "mI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light{
@@ -1498,6 +1506,10 @@
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft0"
 	},
+/area/space)
+"mN" = (
+/obj/structure/dresser,
+/turf/open/floor/wood_common,
 /area/space)
 "mO" = (
 /obj/structure/table/reinforced,
@@ -1521,19 +1533,23 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
-"nd" = (
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 10;
-	icon_state = "dirt";
-	tag = "icon-dirt (SOUTHWEST)"
-	},
-/area/space)
-"ne" = (
+"mZ" = (
 /obj/structure/table/wood,
-/obj/item/pickaxe,
-/obj/item/pickaxe,
+/obj/item/clothing/suit/f13/robe_liz,
+/obj/item/clothing/suit/f13/robe_liz,
+/obj/item/clothing/suit/f13/robe_liz,
+/obj/item/clothing/suit/f13/robe_liz,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
+"nd" = (
+/obj/item/candle/infinite,
+/obj/structure/table/wood,
+/turf/open/floor/carpet/black,
+/area/space)
 "nf" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /turf/open/floor/plasteel/f13{
@@ -1541,30 +1557,26 @@
 	},
 /area/space)
 "nl" = (
-/obj/structure/simple_door/room/dirty{
-	name = "Latrine"
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/item/flag/legion,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
 	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/open/floor/carpet/black,
+/area/space)
 "no" = (
 /obj/structure/wreck/trash/five_tires,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "np" = (
-/obj/structure/decoration/rag{
-	icon_state = "skulls";
-	pixel_x = 4;
-	pixel_y = 2
+/obj/structure/statue/sandstone/mars{
+	anchored = 1
 	},
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
-"nq" = (
-/obj/structure/closet/crate/large,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/turf/open/floor/carpet/black,
+/area/space)
 "ny" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
@@ -1609,9 +1621,9 @@
 	},
 /area/space)
 "nP" = (
-/obj/structure/barricade/bars,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/reagent_dispensers/barrel/two,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "nQ" = (
 /obj/effect/overlay/junk/sink{
 	dir = 8;
@@ -1658,23 +1670,22 @@
 	},
 /area/space)
 "or" = (
-/obj/structure/barricade/bars,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
+/obj/structure/closet/crate/footlocker,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
+/obj/effect/spawner/lootdrop/f13/bomb/tier1,
+/obj/item/paper/crumpled/awaymissions/caves{
+	info = "good luck";
+	name = "tattered note"
 	},
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
+"ow" = (
 /obj/structure/curtain{
-	color = "#363636"
+	color = "#845f58";
+	open = 0
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
-"ow" = (
-/obj/structure/flora/tree/tall{
-	icon_state = "tree_3";
-	tag = "icon-tree_3"
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
 /area/space)
 "ox" = (
 /obj/effect/overlay/junk/oldpipes{
@@ -1743,6 +1754,10 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"pm" = (
+/obj/structure/wreck/trash/autoshaft,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "pt" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -1760,6 +1775,10 @@
 /turf/open/floor/f13{
 	icon_state = "whiteyellowrustychess"
 	},
+/area/space)
+"pB" = (
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "pE" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1788,12 +1807,11 @@
 /obj/structure/bed/old,
 /obj/item/bedsheet/brown,
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "pS" = (
-/obj/structure/closet/crate/large,
-/obj/item/stack/sheet/mineral/wood/fifty,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/closet/crate/miningcar,
+/turf/open/indestructible/ground/outside/graveldirt,
+/area/space)
 "pU" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/structure/rack/large/shelf_rust{
@@ -1810,10 +1828,12 @@
 /turf/open/indestructible/ground/outside/road,
 /area/space)
 "pY" = (
-/obj/structure/decoration/rag,
-/obj/structure/barricade/wooden/planks,
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "qg" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
@@ -1868,9 +1888,14 @@
 	},
 /area/space)
 "qI" = (
-/obj/structure/closet/crate/miningcar,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = 3
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 4
+	},
+/area/space)
 "qT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -1933,29 +1958,24 @@
 	},
 /area/space)
 "rt" = (
-/obj/structure/railing/wood{
-	dir = 8;
-	pixel_x = -3
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/reagent_dispensers/barrel/three,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "rv" = (
-/obj/structure/simple_door/tentflap_cloth{
-	pixel_y = 3
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
 	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
 	},
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "rw" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = 3
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
-/area/f13/legion)
+/obj/item/stack/sheet/bone,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "rx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -2050,6 +2070,12 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"sw" = (
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 6;
+	icon_state = "graveldirtedge"
+	},
+/area/space)
 "sL" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor1-old"
@@ -2068,16 +2094,14 @@
 	},
 /area/space)
 "th" = (
-/obj/structure/barricade/bars,
-/obj/structure/barricade/wooden/planks,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
 	},
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/item/flag/legion,
+/turf/open/floor/carpet/black,
+/area/space)
 "tj" = (
 /obj/effect/overlay/junk/sink{
 	dir = 8;
@@ -2085,6 +2109,12 @@
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
+	},
+/area/space)
+"tn" = (
+/obj/machinery/gibber,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
 	},
 /area/space)
 "tq" = (
@@ -2102,14 +2132,16 @@
 	},
 /area/space)
 "tF" = (
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/barricade/wooden,
+/turf/closed/wall/f13/wood,
+/area/space)
 "tL" = (
-/obj/structure/bed/old,
-/obj/item/bedsheet/hos,
-/obj/effect/landmark/start/f13/slavemaster,
-/turf/open/floor/wood_common,
-/area/f13/legion)
+/obj/structure/bonfire,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8;
+	icon_state = "graveldirtedge"
+	},
+/area/space)
 "tQ" = (
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -2170,11 +2202,13 @@
 	},
 /area/space)
 "uy" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+/obj/structure/table/wood,
+/obj/item/paper/crumpled/awaymissions/caves{
+	info = "Work hard or bear the penalty!";
+	name = "legion notice"
 	},
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
 "uB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old{
@@ -2185,9 +2219,14 @@
 	},
 /area/space)
 "uD" = (
-/obj/structure/junk/drawer,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/rack,
+/obj/item/melee/onehanded/slavewhip,
+/obj/item/melee/onehanded/slavewhip,
+/obj/item/melee/unarmed/brass,
+/obj/item/clothing/mask/muzzle,
+/obj/item/melee/unarmed/brass,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "uH" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/low,
 /turf/open/floor/plasteel/f13{
@@ -2195,9 +2234,7 @@
 	},
 /area/space)
 "uO" = (
-/obj/structure/barricade/wooden,
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/wood,
+/turf/open/floor/wood_common,
 /area/space)
 "uS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2213,24 +2250,17 @@
 /mob/living/simple_animal/hostile/molerat,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
-"ve" = (
-/obj/structure/bonfire,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8;
-	icon_state = "graveldirtedge"
-	},
-/area/space)
-"vf" = (
-/obj/item/stack/sheet/bone,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "vg" = (
 /obj/machinery/light/floor,
 /turf/closed/wall/f13/tunnel,
 /area/space)
 "vh" = (
+/obj/structure/fence/corner/wooden{
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
+	dir = 1;
+	icon_state = "graveldirtedge"
 	},
 /area/space)
 "vu" = (
@@ -2365,11 +2395,7 @@
 	},
 /area/space)
 "wN" = (
-/obj/structure/flora/tree/tall{
-	icon_state = "tree_2";
-	tag = "icon-tree_2"
-	},
-/turf/open/indestructible/ground/outside/desert/harsh,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "wR" = (
 /obj/structure/flora/grass/wasteland,
@@ -2382,13 +2408,9 @@
 	},
 /area/space)
 "wX" = (
-/obj/structure/barricade/tentclothedge{
-	pixel_y = -4
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
-	},
-/area/f13/legion)
+/obj/structure/ore_box,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "xb" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
@@ -2523,16 +2545,6 @@
 	tag = "icon-verticalrightborderright1"
 	},
 /area/space)
-"ye" = (
-/obj/structure/simple_door/metal/barred{
-	name = "Slave Pen"
-	},
-/obj/structure/decoration/rag,
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "yf" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
@@ -2541,10 +2553,13 @@
 	},
 /area/space)
 "yh" = (
-/obj/structure/cross,
-/obj/effect/mob_spawn/human/corpse/damaged,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/turf/closed/wall/f13/sunset/brick_small_dark,
+/area/space)
 "yq" = (
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/structure/rack/large/shelf_rust,
@@ -2626,16 +2641,11 @@
 	},
 /area/space)
 "zr" = (
-/obj/structure/flora/tree/tall{
-	density = 0;
-	icon_state = "tree_3";
-	pixel_x = -29;
-	pixel_y = 17;
-	tag = "icon-tree_3"
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
+/turf/open/indestructible/ground/outside/gravel,
+/area/space)
+"zs" = (
+/obj/structure/closet/crate/miningcar,
+/turf/open/indestructible/ground/inside/mountain,
 /area/space)
 "zy" = (
 /obj/structure/table/reinforced,
@@ -2659,27 +2669,24 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
-"zP" = (
-/obj/effect/landmark/start/f13/slave,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "zS" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
+"zT" = (
+/obj/structure/closet/crate/miningcar,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "Aa" = (
 /mob/living/simple_animal/hostile/bloatfly,
 /turf/open/water,
 /area/space)
 "Af" = (
-/obj/structure/simple_door/repaired{
-	name = "Penalty Chamber"
+/obj/structure/closet/fridge,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "Al" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -2785,10 +2792,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
-"Bf" = (
-/obj/structure/barricade/bars,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "Bl" = (
 /turf/open/floor/plasteel/f13{
 	dir = 4;
@@ -2908,10 +2911,15 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Cs" = (
+/obj/effect/decal/riverbank,
+/turf/open/water,
+/area/space)
 "Cu" = (
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 6
 	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "Cy" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
@@ -2920,8 +2928,14 @@
 	},
 /area/space)
 "Cz" = (
-/obj/structure/barricade/wooden,
-/turf/closed/wall/f13/wood,
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1;
+	icon_state = "graveldirtedge"
+	},
 /area/space)
 "CA" = (
 /obj/structure/flora/grass/wasteland,
@@ -2943,10 +2957,16 @@
 	},
 /area/space)
 "CO" = (
-/obj/structure/barricade/wooden/planks,
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
 /obj/structure/decoration/rag,
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "CP" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop2right";
@@ -2961,12 +2981,9 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "CV" = (
-/obj/item/caution{
-	desc = "A sign denoting the presence of a likely very moist molerat.";
-	name = "wet molerat sign"
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/black,
+/area/space)
 "Da" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -3018,10 +3035,11 @@
 	},
 /area/space)
 "Ds" = (
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 4;
-	icon_state = "dirtcorner"
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/sunset/brick_small_dark,
 /area/space)
 "Dw" = (
 /obj/structure/wreck/trash/machinepile{
@@ -3035,10 +3053,7 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "Dy" = (
-/turf/open/indestructible/ground/outside/graveldirt{
-	icon_state = "graveldirtedge";
-	dir = 1
-	},
+/turf/open/indestructible/ground/outside/water,
 /area/space)
 "Dz" = (
 /mob/living/simple_animal/hostile/raider/ranged/sulphiteranged{
@@ -3049,16 +3064,12 @@
 	},
 /area/space)
 "DA" = (
-/obj/structure/barricade/bars,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
 	},
-/obj/structure/decoration/rag,
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/open/floor/carpet/black,
+/area/space)
 "DB" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	dir = 4;
@@ -3066,9 +3077,12 @@
 	},
 /area/space)
 "DE" = (
-/obj/structure/reagent_dispensers/barrel/two,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/window/fulltile/wood,
+/obj/structure/curtain{
+	color = "#c40e0e"
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "DG" = (
 /mob/living/simple_animal/hostile/raider/tribal{
 	name = "Razor Twins Raider"
@@ -3084,9 +3098,11 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "DO" = (
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	icon_state = "dirt"
+/obj/effect/turf_decal/weather/dirt,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
 	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "DQ" = (
 /obj/item/weldingtool,
@@ -3095,14 +3111,11 @@
 	},
 /area/space)
 "DS" = (
-/obj/structure/barricade/tentclothcorner{
-	dir = 4;
-	pixel_y = 3
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
-/area/f13/legion)
+/obj/structure/closet/crate/large,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "DU" = (
 /obj/structure/chair/folding{
 	dir = 4
@@ -3121,9 +3134,15 @@
 	},
 /area/space)
 "Ei" = (
-/obj/structure/bed/mattress,
+/obj/structure/closet/crate/footchest,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/obj/item/storage/bag/ore,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
+"Ej" = (
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "Eo" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -3140,12 +3159,9 @@
 	},
 /area/space)
 "Eu" = (
-/obj/structure/railing/wood{
-	dir = 4;
-	pixel_x = 3
-	},
+/obj/structure/ore_box,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
 "EC" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/f13{
@@ -3153,19 +3169,13 @@
 	},
 /area/space)
 "EE" = (
-/obj/structure/closet/crate/large,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
-"EK" = (
-/obj/structure/barricade/bars,
-/obj/structure/curtain{
-	color = "#845f58";
-	open = 0
+/obj/structure/barricade/tentclothedge{
+	pixel_y = -4
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
+	},
+/area/space)
 "EM" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	dir = 8;
@@ -3180,21 +3190,33 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"EY" = (
+/obj/effect/landmark/start/f13/slave,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "Fa" = (
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4;
-	icon_state = "graveldirtedge"
+/obj/structure/barricade/bars,
+/obj/structure/barricade/wooden/planks{
+	icon_state = "board-2"
 	},
+/obj/structure/decoration/rag,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "Fc" = (
-/obj/structure/reagent_dispensers/barrel/four,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
-"Ff" = (
-/obj/structure/flora/stump{
-	icon = 'icons/fallout/flora/talltrees.dmi'
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/turf/open/indestructible/ground/outside/desert/harsh,
+/turf/closed/wall/f13/wood,
+/area/space)
+"Ff" = (
+/obj/item/reagent_containers/glass/bucket/wood,
+/obj/structure/table/wood,
+/turf/open/indestructible/ground/inside/mountain,
 /area/space)
 "Fg" = (
 /obj/structure/wreck/trash/engine{
@@ -3224,11 +3246,9 @@
 	},
 /area/space)
 "Fy" = (
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
+/obj/effect/landmark/start/f13/slave,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "FH" = (
 /obj/effect/overlay/junk/oldpipes,
 /turf/open/indestructible/ground/outside/dirt/harsh/corner{
@@ -3284,11 +3304,13 @@
 	},
 /area/space)
 "Ga" = (
-/obj/structure/simple_door/metal/barred{
-	name = "Slave Keep"
+/obj/machinery/smartfridge/drying_rack{
+	pixel_y = 4
 	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
+	},
+/area/space)
 "Gb" = (
 /obj/structure/spacevine,
 /obj/structure/spacevine,
@@ -3300,11 +3322,6 @@
 	icon_state = "dirtcorner"
 	},
 /area/space)
-"Ge" = (
-/obj/item/reagent_containers/glass/bucket/wood,
-/obj/structure/table/wood,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "Gi" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -3360,6 +3377,10 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"Gt" = (
+/obj/effect/landmark/start/f13/priestess,
+/turf/open/floor/carpet/black,
+/area/space)
 "Gx" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
@@ -3390,12 +3411,23 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "GO" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8;
-	light_color = "#f4e3b0"
+/obj/structure/barricade/tentclothcorner{
+	dir = 4;
+	pixel_y = 3
 	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 4;
+	icon_state = "graveldirtedge"
+	},
+/area/space)
+"GR" = (
+/obj/structure/barricade/tentclothedge{
+	pixel_y = -4
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 4
+	},
+/area/space)
 "GW" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /obj/effect/decal/cleanable/oil{
@@ -3408,11 +3440,9 @@
 	},
 /area/space)
 "Hd" = (
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 6
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/sunset/brick_small_dark,
+/area/space)
 "He" = (
 /obj/effect/decal/marking{
 	icon_state = "doubleverticalcorroded"
@@ -3494,9 +3524,11 @@
 	},
 /area/space)
 "HN" = (
-/obj/structure/closet,
+/obj/structure/simple_door/repaired{
+	name = "Mining Storage"
+	},
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "HP" = (
 /obj/item/storage/backpack/satchel/flat,
 /obj/effect/decal/cleanable/dirt,
@@ -3530,9 +3562,12 @@
 	},
 /area/space)
 "Ig" = (
-/obj/structure/ore_box,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
 "Ik" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain2"
@@ -3579,12 +3614,13 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "Iw" = (
-/obj/structure/barricade/wooden,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
+/obj/structure/chair/bench,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4;
+	light_color = "#f4e3b0"
 	},
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
+/turf/open/floor/carpet/black,
+/area/space)
 "Ix" = (
 /mob/living/simple_animal/hostile/raider/baseball{
 	name = "Razor Twins Raider"
@@ -3616,12 +3652,9 @@
 	},
 /area/space)
 "IC" = (
-/obj/machinery/grill,
-/obj/item/stack/sheet/mineral/wood,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
-	},
-/area/f13/legion)
+/obj/structure/junk/drawer,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "ID" = (
 /obj/structure/closet/crate/secure/engineering,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
@@ -3700,11 +3733,15 @@
 	},
 /area/space)
 "JV" = (
-/obj/structure/simple_door/repaired{
-	name = "Mining Storage"
+/obj/structure/simple_door/metal/barred{
+	name = "Slave Pen"
+	},
+/obj/structure/decoration/rag,
+/obj/structure/curtain{
+	color = "#363636"
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "JX" = (
 /turf/open/indestructible/ground/outside/graveldirt{
 	dir = 1
@@ -3762,16 +3799,10 @@
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
 "Ks" = (
-/obj/structure/closet/crate/footlocker,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
-/obj/effect/spawner/lootdrop/f13/bomb/tier1,
-/obj/item/paper/crumpled/awaymissions/caves{
-	info = "good luck";
-	name = "tattered note"
-	},
-/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/structure/cross,
+/obj/effect/mob_spawn/human/corpse/damaged,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
 "Kt" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 9
@@ -3784,10 +3815,15 @@
 	},
 /area/space)
 "Kx" = (
-/obj/structure/barricade/wooden,
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/wood,
-/area/f13/legion)
+/obj/effect/turf_decal/weather/dirt{
+	dir = 9
+	},
+/obj/effect/turf_decal/weather/dirt{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/water,
+/area/space)
 "Ky" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
@@ -3803,10 +3839,10 @@
 	},
 /area/space)
 "KI" = (
-/obj/structure/campfire,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
+/obj/structure/bed/old,
+/obj/item/bedsheet/hos,
+/obj/effect/landmark/start/f13/slavemaster,
+/turf/open/floor/wood_common,
 /area/space)
 "KK" = (
 /turf/open/indestructible/ground/outside/dirt/harsh,
@@ -3829,20 +3865,15 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
-"Lj" = (
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
 "Ll" = (
-/obj/structure/barricade/wooden,
-/obj/structure/decoration/rag,
-/turf/open/indestructible/ground/outside/graveldirt{
+/obj/structure/barricade/tentclothcorner{
 	dir = 1
 	},
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 4;
+	icon_state = "graveldirtedge"
+	},
+/area/space)
 "Lz" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0";
@@ -3858,15 +3889,12 @@
 	},
 /area/space)
 "LH" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 9
-	},
-/obj/effect/turf_decal/weather/dirt{
-	dir = 6
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/water,
-/area/f13/legion)
+/obj/structure/rack,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/stack/medical/gauze,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "LN" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier4,
 /obj/structure/rack/large/shelf_rust{
@@ -3877,12 +3905,12 @@
 	},
 /area/space)
 "LQ" = (
-/obj/effect/turf_decal/weather/dirt,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/closed/wall/f13/sunset/brick_small,
+/area/space)
+"Mh" = (
+/obj/structure/chair/bench,
+/turf/open/floor/carpet/black,
+/area/space)
 "Mn" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/plasteel/f13{
@@ -3929,12 +3957,9 @@
 /turf/open/indestructible/ground/outside/road,
 /area/space)
 "MM" = (
-/obj/structure/junk/cabinet,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/bed/mattress,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "MN" = (
 /obj/effect/decal/cleanable/robot_debris,
 /turf/open/indestructible/ground/outside/road,
@@ -3965,12 +3990,22 @@
 	},
 /area/space)
 "MW" = (
-/obj/structure/reagent_dispensers/barrel/three,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/simple_door/tentflap_cloth{
+	pixel_y = 3
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
+	},
+/area/space)
 "MX" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain2"
+	},
+/area/space)
+"Na" = (
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 4;
+	icon_state = "graveldirtedge"
 	},
 /area/space)
 "Ne" = (
@@ -4024,11 +4059,15 @@
 	},
 /area/space)
 "Np" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/f13/cash_legion_low,
-/obj/effect/spawner/lootdrop/trash,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/fence/corner/wooden{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/dirt/harsh{
+	dir = 8;
+	icon_state = "dirt";
+	tag = "icon-dirt (WEST)"
+	},
+/area/space)
 "Ns" = (
 /obj/effect/spawner/lootdrop/f13/resourcespawner,
 /obj/effect/decal/cleanable/dirt,
@@ -4047,10 +4086,12 @@
 	},
 /area/space)
 "ND" = (
-/obj/structure/bed/old,
-/obj/item/blanket/blanketalt,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/machinery/grill,
+/obj/item/stack/sheet/mineral/wood,
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
+	},
+/area/space)
 "NL" = (
 /obj/item/reagent_containers/blood/radaway,
 /obj/structure/rack/large/shelf_rust,
@@ -4078,14 +4119,8 @@
 	},
 /area/space)
 "NZ" = (
-/obj/structure/barricade/wooden,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
-	},
-/area/f13/legion)
+/turf/open/floor/carpet/black,
+/area/space)
 "Oe" = (
 /turf/open/indestructible/ground/outside/graveldirt{
 	icon_state = "graveldirtedge"
@@ -4105,9 +4140,13 @@
 	},
 /area/space)
 "Oi" = (
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/barricade/tentclothedge{
+	pixel_y = -4
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
+	},
+/area/space)
 "Oj" = (
 /obj/structure/fence/door{
 	dir = 4
@@ -4118,9 +4157,11 @@
 	},
 /area/space)
 "Oo" = (
-/obj/structure/dresser,
-/turf/open/floor/wood_common,
-/area/f13/legion)
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "Or" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrusty"
@@ -4190,6 +4231,12 @@
 	dir = 8
 	},
 /area/space)
+"Pb" = (
+/obj/structure/closet/crate/large,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "Pg" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /turf/open/floor/plasteel/f13{
@@ -4198,41 +4245,38 @@
 	},
 /area/space)
 "Pi" = (
-/obj/structure/decoration/rag{
-	icon_state = "skulls";
-	pixel_x = 6;
-	pixel_y = 2
-	},
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
-"Pj" = (
-/obj/machinery/smartfridge/drying_rack{
-	pixel_y = 4
+/obj/structure/fence/corner/wooden{
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+	dir = 1;
+	icon_state = "graveldirtedge"
 	},
-/area/f13/legion)
-"Pp" = (
-/obj/structure/flora/rock/jungle{
-	icon_state = "grassb5"
-	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
-"Px" = (
-/obj/structure/simple_door/metal/barred{
-	name = "Slave Keep"
+"Pj" = (
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
+"Pp" = (
+/obj/structure/barricade/bars,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
-"PF" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4;
-	light_color = "#f4e3b0"
+/obj/structure/curtain{
+	color = "#363636"
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
+"Px" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
+"PF" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "PH" = (
 /obj/item/razor,
 /obj/effect/decal/cleanable/dirt,
@@ -4240,6 +4284,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
+/area/space)
+"PI" = (
+/obj/structure/barricade/bars,
+/obj/structure/curtain{
+	color = "#845f58";
+	open = 0
+	},
+/turf/open/indestructible/ground/inside/mountain,
 /area/space)
 "PK" = (
 /obj/structure/table/wood/junk,
@@ -4268,8 +4320,12 @@
 	},
 /area/space)
 "Qk" = (
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
+/obj/structure/fence/wooden{
+	dir = 1;
+	icon_state = "post_wood"
+	},
+/turf/open/floor/wood_worn/wood_worn_dark,
+/area/space)
 "Qo" = (
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/f13{
@@ -4277,10 +4333,9 @@
 	},
 /area/space)
 "Qp" = (
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
-	},
-/area/f13/legion)
+/obj/structure/closet,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "Qs" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/belt,
@@ -4289,14 +4344,18 @@
 	},
 /area/space)
 "Qv" = (
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/sunset/brick_small_dark,
-/area/f13/legion)
-"QD" = (
-/obj/structure/bed/old,
-/obj/item/blanket,
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern,
+/obj/item/flashlight/lantern,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
+"QD" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "QE" = (
 /obj/structure/wreck/trash/two_tire,
 /obj/structure/wreck/trash/one_tire,
@@ -4340,9 +4399,13 @@
 /turf/open/indestructible/ground/outside/road,
 /area/space)
 "QZ" = (
-/obj/structure/decoration/rag,
-/turf/closed/wall/f13/wood,
-/area/f13/legion)
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_y = 6
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 1
+	},
+/area/space)
 "Re" = (
 /obj/effect/spawner/lootdrop/f13/crafting,
 /obj/effect/decal/cleanable/dirt,
@@ -4352,13 +4415,9 @@
 	},
 /area/space)
 "Rg" = (
-/obj/structure/barricade/tentclothedge{
-	pixel_y = -4
-	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
-	},
-/area/f13/legion)
+/obj/effect/decal/riverbank,
+/turf/open/indestructible/ground/outside/water,
+/area/space)
 "Rl" = (
 /obj/structure/table/wood/junk,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
@@ -4386,6 +4445,12 @@
 	icon_state = "outerpavement";
 	dir = 10
 	},
+/area/space)
+"RF" = (
+/obj/structure/simple_door/room/dirty{
+	name = "Latrine"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "RG" = (
 /obj/effect/decal/marking{
@@ -4463,21 +4528,12 @@
 	icon_state = "greenrusty"
 	},
 /area/space)
-"Sk" = (
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "Sm" = (
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
 /area/space)
-"Ss" = (
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "St" = (
 /obj/item/flashlight/flare,
 /obj/item/flashlight/flare,
@@ -4500,13 +4556,19 @@
 	},
 /area/space)
 "SC" = (
-/obj/structure/reagent_dispensers/water_cooler{
-	pixel_y = 6
+/obj/structure/barricade/bars,
+/obj/structure/barricade/wooden/planks{
+	icon_state = "board-2"
 	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/area/f13/legion)
+/obj/structure/decoration/rag,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "SE" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
@@ -4559,14 +4621,10 @@
 	},
 /area/space)
 "Tj" = (
-/obj/structure/rack,
-/obj/item/melee/onehanded/slavewhip,
-/obj/item/melee/onehanded/slavewhip,
-/obj/item/melee/unarmed/brass,
-/obj/item/clothing/mask/muzzle,
-/obj/item/melee/unarmed/brass,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag,
+/turf/closed/wall/f13/wood,
+/area/space)
 "Tk" = (
 /mob/living/simple_animal/hostile/cazador,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -4583,28 +4641,31 @@
 	},
 /area/space)
 "Tp" = (
-/obj/structure/kitchenspike,
-/obj/item/kitchen/knife/butcher,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 1
+/obj/structure/barricade/bars,
+/obj/structure/barricade/wooden/planks,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/area/f13/legion)
-"Tq" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = 3
+/obj/structure/curtain{
+	color = "#363636"
 	},
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 8
-	},
-/area/f13/legion)
-"Tt" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
+"Tq" = (
+/obj/structure/railing/wood{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
+"Tt" = (
+/obj/structure/fence/corner/wooden,
+/obj/item/flag/legion,
+/turf/open/indestructible/ground/outside/dirt/harsh{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/space)
 "Tu" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -4644,29 +4705,26 @@
 	},
 /area/space)
 "TS" = (
-/obj/structure/closet/crate/miningcar,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/rack,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "Uc" = (
-/turf/closed/indestructible/rock,
+/turf/closed/wall/f13/sunset/brick_small_dark,
 /area/space)
 "Ue" = (
-/obj/structure/table/wood,
-/obj/item/clothing/suit/f13/robe_liz,
-/obj/item/clothing/suit/f13/robe_liz,
-/obj/item/clothing/suit/f13/robe_liz,
-/obj/item/clothing/suit/f13/robe_liz,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8;
-	light_color = "#f4e3b0"
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "Ug" = (
-/obj/structure/flora/tree/tall,
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 4
-	},
+/obj/structure/decoration/rag,
+/obj/structure/barricade/wooden/planks,
+/turf/closed/wall/f13/sunset/brick_small_dark,
 /area/space)
 "Ui" = (
 /obj/item/vending_refill/boozeomat,
@@ -4702,9 +4760,12 @@
 	},
 /area/space)
 "Uq" = (
-/obj/structure/ore_box,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/obj/structure/railing/wood{
+	dir = 4;
+	pixel_x = 3
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "Ur" = (
 /obj/structure/barricade/wooden,
 /obj/effect/decal/cleanable/dirt,
@@ -4763,13 +4824,12 @@
 	},
 /area/space)
 "UH" = (
-/obj/structure/barricade/wooden,
-/obj/structure/decoration/rag,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/turf/open/indestructible/ground/inside/dirt,
+/area/space)
 "UK" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -4867,11 +4927,10 @@
 	},
 /area/space)
 "Vz" = (
-/obj/structure/chair/wood{
-	dir = 4
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/bed/old,
+/obj/item/blanket/blanketalt,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "VA" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -4900,12 +4959,6 @@
 "VI" = (
 /obj/structure/spacevine,
 /turf/open/water,
-/area/space)
-"VN" = (
-/turf/open/indestructible/ground/outside/graveldirt{
-	dir = 6;
-	icon_state = "graveldirtedge"
-	},
 /area/space)
 "Wb" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -4953,11 +5006,14 @@
 /turf/open/indestructible/ground/outside/road,
 /area/space)
 "Wv" = (
-/obj/structure/closet/crate/footchest,
-/obj/effect/spawner/lootdrop/f13/cash_legion_low,
-/obj/item/storage/bag/ore,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = 3
+	},
+/turf/open/indestructible/ground/outside/graveldirt{
+	dir = 8
+	},
+/area/space)
 "WQ" = (
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/structure/table,
@@ -4982,12 +5038,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
-"Xd" = (
-/obj/structure/rack,
-/obj/item/storage/bag/ore,
-/obj/item/storage/bag/ore,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "Xf" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -5019,6 +5069,15 @@
 	icon_state = "greenrusty"
 	},
 /area/space)
+"Xv" = (
+/obj/structure/chair/bench,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/old{
+	icon_state = "floor2";
+	pixel_y = -15
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/space)
 "Xx" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
@@ -5026,18 +5085,22 @@
 	},
 /area/space)
 "XM" = (
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 5;
-	icon_state = "dirt"
-	},
-/area/space)
-"XO" = (
+/obj/structure/junk/cabinet,
 /obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8;
-	light_color = "#f4e3b0"
+	dir = 4
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
+"XQ" = (
+/obj/structure/fence/corner/wooden{
+	dir = 4
+	},
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "XR" = (
 /obj/effect/overlay/junk/oldpipes{
 	dir = 4
@@ -5063,18 +5126,15 @@
 	},
 /area/space)
 "Yb" = (
-/obj/effect/turf_decal/weather/dirt,
-/obj/structure/closet/cabinet,
-/obj/effect/spawner/lootdrop/f13/cash_legion_low,
-/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/obj/structure/table/wood,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "Yh" = (
-/turf/open/indestructible/ground/outside/dirt/harsh{
-	dir = 1;
-	icon_state = "dirt";
-	tag = "icon-dirt (NORTH)"
-	},
+/obj/structure/bed/old,
+/obj/item/blanket,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "Yk" = (
 /mob/living/simple_animal/hostile/raider/ranged/biker{
@@ -5089,15 +5149,15 @@
 /obj/structure/table/wood/junk,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
-"Yp" = (
-/turf/open/floor/wood_common,
-/area/f13/legion)
 "Yu" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
+/obj/structure/simple_door/repaired{
+	name = "Penalty Chamber"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
+/area/space)
 "Yw" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
 /turf/open/floor/plasteel/f13{
@@ -5129,16 +5189,11 @@
 	},
 /area/space)
 "YI" = (
-/obj/effect/decal/remains/human{
-	desc = "H.M."
+/obj/item/caution{
+	desc = "A sign denoting the presence of a likely very moist molerat.";
+	name = "wet molerat sign"
 	},
-/obj/item/clothing/gloves/ring/silver{
-	desc = "A tiny silver ring, sized to wrap around a finger. 'thank's you for all, my love' "
-	},
-/obj/structure/flora/ausbushes/fullgrass{
-	icon_state = "fullgrass_2"
-	},
-/turf/open/indestructible/ground/outside/dirt/harsh,
+/turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
 "YS" = (
 /mob/living/simple_animal/hostile/raider/firefighter{
@@ -5162,13 +5217,6 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
-"YY" = (
-/obj/structure/curtain{
-	color = "#845f58";
-	open = 0
-	},
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "YZ" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/outside/road,
@@ -5197,15 +5245,18 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"Zp" = (
+/obj/effect/turf_decal/weather/dirt,
+/obj/structure/closet/cabinet,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
+/turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
 "Zs" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2"
 	},
 /area/space)
-"Zw" = (
-/obj/effect/landmark/start/f13/slave,
-/turf/open/floor/plasteel/f13/stone/rugged,
-/area/f13/legion)
 "ZE" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag{
@@ -5254,16 +5305,11 @@
 	},
 /area/space)
 "ZW" = (
-/obj/structure/fence/wooden{
-	dir = 4;
-	icon_state = "post_wood"
+/obj/structure/chair/wood{
+	dir = 4
 	},
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag,
 /turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/area/space)
 "ZX" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontal"
@@ -5605,7 +5651,7 @@ bS
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -5862,7 +5908,7 @@ AV
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -6119,7 +6165,7 @@ AV
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -6376,7 +6422,7 @@ AV
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -6633,7 +6679,7 @@ AV
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -6890,7 +6936,7 @@ AV
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -7147,7 +7193,7 @@ bS
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -7404,7 +7450,7 @@ bS
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -7661,7 +7707,7 @@ AV
 AV
 AV
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -7918,7 +7964,7 @@ AV
 AV
 AV
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -8175,7 +8221,7 @@ AV
 AV
 AV
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -8432,7 +8478,7 @@ AV
 AV
 AV
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -8689,7 +8735,7 @@ AV
 AV
 AV
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -8946,7 +8992,7 @@ bS
 bS
 bS
 bS
-bS
+Nt
 bS
 bS
 bS
@@ -9203,6 +9249,7 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
@@ -9229,10 +9276,9 @@ bS
 bS
 bS
 bS
-KK
-ue
-CR
-Av
+bS
+bS
+Cs
 Av
 hE
 Av
@@ -9460,6 +9506,7 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
@@ -9484,13 +9531,12 @@ bS
 bS
 bS
 bS
-aP
-Pp
-KK
-ue
-Iv
-Iv
-Av
+bS
+bS
+bS
+bS
+Rg
+Dy
 Av
 Av
 Av
@@ -9717,6 +9763,7 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
@@ -9729,28 +9776,27 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-bS
-Iv
 bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Av
-Av
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Rg
+Dy
+bS
+bS
+bS
 Av
 Gb
 VI
@@ -9974,6 +10020,7 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
@@ -9985,10 +10032,9 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -10002,13 +10048,13 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Av
-Av
-Av
+jm
+Rg
+Dy
+jm
+bS
+bS
+bS
 hE
 bS
 bS
@@ -10231,6 +10277,7 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
@@ -10241,6 +10288,9 @@ bS
 bS
 bS
 bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -10255,18 +10305,14 @@ Iv
 Iv
 Iv
 Iv
+jm
+Rg
+Dy
+jm
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Av
-Av
-Av
+bS
+bS
+bS
 bS
 bS
 bS
@@ -10488,13 +10534,18 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
 bS
 bS
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
 bS
 bS
 Iv
@@ -10511,19 +10562,14 @@ Iv
 Iv
 Iv
 Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Av
-Av
+bS
+bS
 bS
 bS
 bS
@@ -10745,22 +10791,20 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
-Iv
-Iv
-Uv
-DB
-DB
-Ds
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -10775,10 +10819,12 @@ Iv
 Iv
 Iv
 Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
-Iv
-wN
 Iv
 Iv
 CR
@@ -11002,17 +11048,19 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
-Uv
-DB
-Vo
-KK
-KK
-XM
-DB
-Ds
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -11028,12 +11076,10 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -11259,38 +11305,38 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
-Uv
-Vo
-KK
-Pp
-KK
-sh
-KK
-KK
-ue
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Iv
+Iv
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
 Iv
 Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -11516,38 +11562,38 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
-DO
-KK
-sh
-aP
-sh
-an
-KK
-sh
-XM
-Ds
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Iv
+Iv
+Uc
+nl
+CV
+Mh
+NZ
+Mh
+DA
+DE
 Iv
 Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -11773,41 +11819,41 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
-DO
-KK
-KK
-KK
-Kh
-sh
-KK
-KK
-KK
-Yh
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
+Uc
+nd
+CV
+cr
+NZ
+Mh
+NZ
+DE
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+DB
+DB
+DB
+cP
+Qk
+Qk
+Tt
+DB
+DB
+DB
 Iv
 Iv
 Iv
@@ -12030,41 +12076,41 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
-iP
-Cy
-ek
-sh
-YI
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Iv
+Iv
+Uc
+np
+Gt
+NZ
+NZ
+NZ
+NZ
+Uc
+Iv
+Iv
 KK
 KK
 KK
 KK
-Yh
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+kU
+kU
+KK
+KK
+KK
+KK
 Iv
 Iv
 Iv
@@ -12287,41 +12333,41 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
-Uv
-Vo
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Iv
+Iv
+Uc
+nd
+NZ
+Mh
+NZ
+Mh
+NZ
+DE
+Iv
+Iv
 KK
 KK
-sh
-sh
 KK
 KK
-Yh
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+kU
+kU
+KK
+KK
+KK
+KK
 Iv
 Iv
 Iv
@@ -12544,41 +12590,41 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
-DO
-KK
-sh
-KK
-KK
-KK
-KK
-KK
-Yh
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
+Uc
+th
+CV
+Mh
+NZ
+Iw
+NZ
+DE
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+lf
+lf
+lf
+Np
+Qk
+Qk
+ek
+lf
+lf
+lf
 Iv
 Iv
 Iv
@@ -12801,38 +12847,38 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
-DO
-KK
-KK
-KK
-KK
-KK
-KK
-KK
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Iv
+Iv
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
 Iv
 Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -13058,17 +13104,19 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
-iP
-lf
-lf
-Cy
-KK
-sh
-KK
-Es
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -13084,12 +13132,10 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -13315,17 +13361,19 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
 bS
 bS
 bS
-EM
-nd
-KK
-Es
-Gd
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -13341,12 +13389,10 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -13559,9 +13605,6 @@ bS
 bS
 bS
 bS
-Cu
-Ug
-Cu
 bS
 bS
 bS
@@ -13575,12 +13618,19 @@ bS
 bS
 bS
 bS
+Nt
 bS
 bS
 bS
 bS
-EM
-lf
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -13596,14 +13646,10 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -13816,12 +13862,6 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
 bS
 bS
 bS
@@ -13835,6 +13875,17 @@ bS
 bS
 bS
 bS
+Nt
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 bS
 bS
 Iv
@@ -13852,15 +13903,10 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -14072,13 +14118,6 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-KI
-Cu
-Cu
-Cu
-ow
 bS
 bS
 bS
@@ -14093,6 +14132,18 @@ bS
 bS
 bS
 bS
+Nt
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 bS
 Iv
 Iv
@@ -14109,15 +14160,10 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -14329,21 +14375,6 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-bS
-Fa
-Fa
-Fa
-Fa
 bS
 bS
 bS
@@ -14351,30 +14382,45 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Tj
+LQ
+LQ
+LQ
+LQ
+Tj
+LQ
+LQ
+LQ
+LQ
+Tj
+LQ
+LQ
+LQ
+LQ
+Tj
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -14587,51 +14633,51 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-vh
-JX
-JX
-ce
 bS
 bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+iX
+bS
+bS
+bS
+bS
+iX
+bS
+bS
+bS
+bS
+iX
+bS
+bS
+bS
+bS
+iX
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -14844,51 +14890,51 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-Cu
-Ug
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-vh
-SS
-US
-kl
-vh
-ce
 bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+iX
+bS
+bS
+bS
+bS
+iX
+bS
+bS
+bS
+bS
+iX
+bS
+bS
+bS
+bS
+iX
+Rg
+Dy
+XQ
 Iv
 Iv
 Iv
@@ -15101,51 +15147,51 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-Cu
-zr
-Cu
-JX
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Tj
+LQ
+LQ
+LQ
+LQ
+Tj
+LQ
+LQ
+LQ
+LQ
+Tj
+LQ
+LQ
+LQ
+LQ
+Tj
+Rg
 Dy
-IN
-Oe
-JX
-vh
-ce
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
 Iv
 Iv
 Iv
@@ -15364,45 +15410,45 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-vh
-vh
-JX
-ep
-Fa
-VN
-JX
-vh
-vh
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Na
+Na
+Na
+Ll
+bt
+Na
+Na
+mG
+GO
+Na
+Na
+Na
+Na
+Na
+IN
+UH
+Rg
 Dy
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+rv
 Iv
 Iv
 Iv
@@ -15620,46 +15666,46 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-Cu
-vh
-vh
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+sw
+an
+an
+an
+EE
+ep
 JX
-JX
-vh
-JX
-vh
-vh
-vh
+QZ
+Ga
+qI
+an
+an
+an
+an
+an
+ce
+UH
+Rg
 Dy
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+rv
 Iv
 Iv
 Iv
@@ -15877,46 +15923,46 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-vh
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+sw
+zr
+zr
+zr
+an
+Oi
+Af
 JX
 JX
-vh
-vh
 JX
-vh
-vh
-vh
-vh
+MW
+an
+an
+bS
+bS
+zr
+an
+Cz
+Rg
 Dy
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
 Iv
 Iv
 Iv
@@ -16134,46 +16180,46 @@ bS
 bS
 bS
 bS
-Cu
-Cu
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+sw
+an
+zr
+zr
+zr
+an
+GR
+tn
+lk
+ND
 JX
-vh
-vh
-JX
-vh
-vh
-vh
-JX
-vh
-vh
+Wv
+an
+zr
+bS
+AV
+an
+an
+Cz
+Rg
 Dy
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+jm
 Iv
 Iv
 Iv
@@ -16391,46 +16437,46 @@ bS
 bS
 bS
 bS
-Cu
-Cu
-bt
-Ll
-Qp
-Qp
-NZ
-DS
-JX
-JX
-vh
-Cu
-Rq
 bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Oe
+an
+zr
+zr
+bS
+AV
+an
+an
+an
+an
+an
+an
+an
+zr
+an
+zr
+zr
+an
+an
+Cz
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -16647,47 +16693,47 @@ bS
 bS
 bS
 bS
-ZE
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 kl
-Cu
+zr
+an
+bS
+bS
+an
+an
+an
+an
+an
+an
+an
+zr
+zr
+an
+an
+an
+an
+Cz
 Rg
-Tp
-Qp
-SC
-Pj
-rw
-JX
-vh
-ZE
-vh
-ce
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Dy
+jm
 Iv
 Iv
 Iv
@@ -16903,51 +16949,51 @@ bS
 bS
 bS
 bS
-cW
-IN
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Oe
-Cu
-wX
-kC
-Qp
-Qp
-Qp
-rv
+an
+zr
+an
+an
+an
+an
+an
+an
+an
+an
+zr
+zr
+zr
+an
+an
+an
+an
 vh
-JX
-vh
-Cz
-JX
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Qk
+Qk
+Tt
+DB
+DB
+DB
 Iv
 Iv
 Iv
@@ -17160,51 +17206,51 @@ bS
 bS
 bS
 bS
-uO
-HS
-Oe
-Cu
-iE
-jW
-mG
-IC
-Qp
-Tq
-JX
-SS
-ve
-uO
-vh
 bS
 bS
 bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+kl
+zr
+an
+an
+an
+an
+an
+an
+an
+an
+zr
+an
+an
+an
+an
+an
+an
+Rq
+kU
+kU
+KK
+KK
+KK
+KK
 Iv
 Iv
 Iv
@@ -17416,21 +17462,6 @@ bS
 bS
 bS
 bS
-Qk
-Qk
-Qk
-Iw
-Ga
-Qk
-Qv
-Fy
-CO
-Qk
-Qk
-Px
-CO
-Fy
-Qk
 bS
 bS
 bS
@@ -17438,30 +17469,45 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+kl
+an
+an
+an
+zr
+pS
+an
+AV
+bS
+an
+an
+an
+an
+an
+an
+an
+Rq
+kU
+kU
+KK
+KK
+KK
+KK
 Iv
 Iv
 Iv
@@ -17673,52 +17719,52 @@ bS
 bS
 bS
 bS
-Qk
-ND
-Ss
-ar
-Ss
-Vz
-pY
-Wv
-EE
-pS
-tF
-Ss
-Ss
-tF
-Qk
-Qk
-Qk
-Qk
-Qk
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+kl
+an
+an
+an
+zr
+zr
+bS
+bS
+an
+an
+an
+an
+an
+zr
+an
+Pi
+Qk
+Qk
+ek
+lf
+lf
+lf
 Iv
 Iv
 Iv
@@ -17930,49 +17976,49 @@ bS
 bS
 bS
 bS
-Qk
-Ss
-zP
-ye
-tF
-tF
-nP
-tF
-Ss
-Ss
-kU
-tF
-Ss
-Ss
-Qk
-Ue
-Tt
-ne
-Qk
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+ZE
+an
+zr
+zr
+zr
+zr
+an
+an
+an
+an
+an
+zr
+zr
+an
+an
+Cz
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -18187,49 +18233,49 @@ bS
 bS
 bS
 bS
-Qk
-uD
-Yu
-or
-tF
-dJ
-Bf
-Ss
-tF
-tF
-kV
-tF
-TS
-Ss
-JV
-Ss
-Ss
-Ss
-Qk
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+iK
+kl
+an
+an
+zr
+zr
+zr
+an
+an
+an
+an
+tF
+an
+an
+zr
+an
+Cz
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -18444,49 +18490,49 @@ bS
 bS
 bS
 bS
-Qk
-Qk
-Qk
-Kx
-Ss
-tF
-nP
-tF
-tF
-tF
-XO
-tF
-tF
-Eu
-Qk
-pS
-CV
-Xd
-Qk
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Tj
+HS
+US
+US
+US
+US
+US
+US
+US
+US
+tL
+Tj
+US
+kl
+zr
+SS
+UH
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -18701,49 +18747,49 @@ bS
 bS
 bS
 bS
-Qk
-tF
-Ei
-DA
-Ss
-Ss
-Qv
-tF
-tF
-tF
-tF
-tF
-tF
-Np
-Qk
-Qk
-Qk
-Qk
-Qk
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+Uc
+Uc
+aP
+go
+Uc
+Hd
+iE
+lO
+Uc
+Uc
+fC
+lO
+iE
+Uc
+IN
+US
+IN
+UH
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -18958,49 +19004,49 @@ bS
 bS
 bS
 bS
-Qk
-tF
-Zw
-ye
-tF
-Ss
-Px
-Ss
-Ss
-tF
-mD
-tF
-tF
-Ge
-Qk
-tF
-lF
-tF
-Kx
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+Vz
+wN
+Fa
+wN
+ZW
+Ug
+Ei
+DS
+cW
+TO
+wN
+wN
+TO
+Uc
+Uc
+Uc
+Uc
+Uc
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -19215,49 +19261,49 @@ bS
 bS
 bS
 bS
-Qk
-QD
-MM
-or
-tF
-tF
-nP
-Ss
-Ss
-Ss
-yh
-tF
-tF
-hT
-Qk
-Ks
-ZW
-tF
-QZ
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+wN
+EY
+JV
+TO
+TO
+dg
+TO
+wN
+wN
+kC
+TO
+wN
+wN
+Uc
+mZ
+Qv
+Yb
+Uc
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -19472,49 +19518,49 @@ bS
 bS
 bS
 bS
-Qk
-Qk
-Qk
-Iw
-tF
-tF
-Pi
-Ss
-Ss
-Ss
-tF
-tF
-tF
-nq
-Lj
-Qk
-Qk
-UH
-Qk
 bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+IC
+QD
+Pp
+TO
+Ej
+pB
+wN
+TO
+TO
+tF
+TO
+zs
+wN
+HN
+wN
+wN
+wN
+Uc
+Rg
+Dy
+jm
 Iv
 Iv
 Iv
@@ -19729,25 +19775,6 @@ bS
 bS
 bS
 bS
-Qk
-lO
-HN
-th
-tF
-Oi
-nP
-Ss
-Ss
-Ss
-kU
-tF
-Ss
-rt
-Fy
-Ss
-tF
-tF
-Qk
 bS
 bS
 bS
@@ -19755,23 +19782,42 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+Uc
+Uc
+Tj
+wN
+TO
+dg
+TO
+TO
+TO
+Ig
+TO
+TO
+Uq
+Uc
+cW
+YI
+TS
+Uc
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -19986,25 +20032,6 @@ bS
 bS
 bS
 bS
-Qk
-tF
-Zw
-ye
-Ss
-Ss
-nP
-tF
-Ss
-Ss
-kV
-Ss
-qI
-tF
-nl
-Ss
-LH
-tF
-Qk
 bS
 bS
 bS
@@ -20012,23 +20039,42 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+TO
+MM
+mD
+wN
+wN
+Hd
+TO
+TO
+TO
+TO
+TO
+TO
+PF
+Uc
+Uc
+Uc
+Uc
+Uc
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -20243,49 +20289,49 @@ bS
 bS
 bS
 bS
-Qk
-pO
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+TO
+Fy
+JV
+TO
+wN
+fC
+wN
+wN
+TO
 uy
-jm
-Sk
-tF
-Bf
-tF
-tF
-Ss
-GO
-Ss
-Ss
-tF
-Qv
-uy
-tF
-bG
-Qk
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+TO
+TO
 Ff
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Uc
+TO
+pm
+TO
+Tj
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -20500,25 +20546,6 @@ bS
 bS
 bS
 bS
-Qk
-Qk
-Qk
-QZ
-Af
-Qk
-Qv
-Ig
-Uq
-MW
-DE
-Fc
-Ig
-Uq
-np
-Qk
-Qk
-iX
-Qk
 bS
 bS
 bS
@@ -20526,31 +20553,50 @@ bS
 bS
 bS
 bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+Yh
+XM
+Pp
+TO
+TO
+dg
+wN
+wN
+wN
+Ks
+TO
+TO
+Px
+Uc
+or
+CO
+TO
+iK
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
 Iv
-cP
 Iv
 Iv
-tQ
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
 bS
 bS
 bS
@@ -20758,20 +20804,6 @@ bS
 bS
 bS
 bS
-Qk
-tF
-tF
-Sk
-vf
-Qk
-Qv
-Qv
-Fy
-Qv
-Fy
-Qv
-Qk
-Qk
 bS
 bS
 bS
@@ -20788,26 +20820,40 @@ bS
 bS
 bS
 bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+Uc
+Uc
+Uc
+aP
+TO
+TO
+ar
+wN
+wN
+wN
+TO
+TO
+TO
+Pb
+Ds
+Uc
+Uc
+Ue
+Uc
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 bS
 bS
 bS
@@ -21014,16 +21060,6 @@ Nt
 Nt
 Nt
 Nt
-Nt
-Qk
-Ss
-fC
-Hd
-Ss
-YY
-LQ
-tL
-Qk
 bS
 bS
 bS
@@ -21045,27 +21081,37 @@ bS
 bS
 bS
 bS
-bS
-Iv
-Iv
-Iv
-Iv
+Uc
+aU
+Qp
+Tp
+TO
+Pj
+dg
 wN
-Iv
-Iv
-Iv
-Iv
-Iv
-Ff
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+wN
+wN
+kC
+TO
+wN
+Tq
+iE
+wN
+TO
+TO
+Uc
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 bS
 bS
 bS
@@ -21272,15 +21318,45 @@ bS
 bS
 bS
 bS
-Qk
-Ss
-PF
-Ss
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+TO
+Fy
+JV
+wN
+wN
+dg
+TO
+wN
+wN
 tF
-EK
-lk
-Yp
-Qk
+wN
+zT
+TO
+RF
+wN
+Kx
+TO
+Uc
 bS
 bS
 bS
@@ -21293,36 +21369,6 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-tQ
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
@@ -21529,15 +21575,45 @@ bS
 bS
 bS
 bS
-Qk
-Qk
-Qk
-Tj
-iK
-Qk
-Yb
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+Uc
+pO
+jW
+SC
 Oo
-Qk
+TO
+pB
+TO
+TO
+wN
+kV
+wN
+wN
+TO
+Hd
+jW
+TO
+bG
+Uc
 bS
 bS
 bS
@@ -21550,36 +21626,6 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
@@ -21788,13 +21834,18 @@ bS
 bS
 bS
 bS
-Qk
-Qk
-Qk
-Qk
-Qk
-Qk
-Qk
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 bS
 bS
 bS
@@ -21804,8 +21855,21 @@ bS
 Uc
 Uc
 Uc
+iK
+Yu
+Uc
+Hd
+Eu
+wX
+rt
+nP
+jJ
+Eu
+wX
+yh
 Uc
 Uc
+Fc
 Uc
 bS
 bS
@@ -21818,24 +21882,6 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
@@ -22064,6 +22110,20 @@ bS
 bS
 bS
 bS
+Uc
+TO
+TO
+Oo
+rw
+Uc
+Hd
+Hd
+iE
+Hd
+iE
+Hd
+Uc
+Uc
 bS
 bS
 bS
@@ -22078,20 +22138,6 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Ff
-Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
@@ -22321,6 +22367,15 @@ bS
 bS
 bS
 bS
+Uc
+wN
+Xv
+Cu
+wN
+ow
+DO
+KI
+Uc
 bS
 bS
 bS
@@ -22336,15 +22391,6 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
 bS
 bS
 bS
@@ -22578,15 +22624,15 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Uc
+wN
+pY
+wN
+TO
+PI
+lF
+uO
+Uc
 bS
 bS
 bS
@@ -22835,15 +22881,15 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Uc
+Uc
+Uc
+uD
+LH
+Uc
+Zp
+mN
+Uc
 bS
 bS
 bS
@@ -23094,13 +23140,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
+Uc
 bS
 bS
 bS
