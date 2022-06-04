@@ -246,6 +246,15 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"aX" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/machinery/hydroponics/soil,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "aZ" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontal"
@@ -280,6 +289,15 @@
 	icon_state = "outerbordercorner"
 	},
 /area/space)
+"bg" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/item/fishingrod,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "bm" = (
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/crafting,
@@ -432,6 +450,15 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"cH" = (
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "cO" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /turf/open/floor/plasteel/f13{
@@ -515,6 +542,16 @@
 	tag = "icon-outerturn (EAST)"
 	},
 /area/space)
+"dx" = (
+/obj/structure/stairs/west{
+	icon = 'icons/turf/f13road.dmi';
+	icon_state = "crossborderroundmid";
+	name = "Upwards Road"
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
+	},
+/area/space)
 "dD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -566,12 +603,39 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"ec" = (
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "ed" = (
 /obj/machinery/smartfridge/bottlerack/lootshelf/cans,
 /turf/open/floor/f13{
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"ef" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/structure/mirror{
+	pixel_x = -32
+	},
+/mob/living/simple_animal/pet/cat/kitten{
+	name = "Sprinkles";
+	desc = "That's a tiny little baby kitten with a loose fitting collar made of leather, a nametag saying "Sprinkles" is attached.  It's maybe a few weeks old at most.  The creature is missing large patches of hair and clearly has mange, nevermind that it's clearly underfed and on the edge of starvation.  Despite that, it's big black eyes practically scream that it loves you."
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "ek" = (
 /obj/structure/fence/corner/wooden{
 	dir = 1
@@ -696,6 +760,23 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"eW" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
+"eZ" = (
+/obj/structure/window/fulltile/house{
+	dir = 2
+	},
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "fb" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/indestructible/ground/outside/dirt/harsh,
@@ -706,11 +787,31 @@
 	dir = 4
 	},
 /area/space)
+"fj" = (
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag{
+	icon_state = "skulls"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "fk" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
+	},
+/area/space)
+"fl" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
 	},
 /area/space)
 "fm" = (
@@ -721,6 +822,14 @@
 	icon_state = "greenrusty"
 	},
 /area/space)
+"fo" = (
+/obj/structure/stairs/north{
+	name = "makeshift stairs"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "fs" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
@@ -832,6 +941,24 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"gP" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
+"gT" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/table/wood/settler,
+/obj/item/grown/log/bamboo,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "he" = (
 /obj/item/clothing/head/helmet/f13/brahmincowboyhat,
 /obj/item/clothing/suit/armor/f13/brahmin_leather_duster,
@@ -950,6 +1077,13 @@
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water,
 /area/space)
+"hF" = (
+/obj/effect/decal/remains{
+	icon_state = "remains"
+	},
+/obj/structure/punji_sticks,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "hH" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13{
@@ -1046,6 +1180,10 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
 	},
+/area/space)
+"iJ" = (
+/obj/structure/wreck/bus/rusted,
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "iK" = (
 /obj/structure/decoration/rag,
@@ -1180,6 +1318,14 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"jB" = (
+/obj/structure/sink/well,
+/obj/structure/railing/wood{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "jF" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
 /turf/open/floor/plasteel/f13{
@@ -1302,6 +1448,12 @@
 	tag = "icon-dirt (WEST)"
 	},
 /area/space)
+"li" = (
+/obj/structure/flora/grass/wasteland,
+/turf/closed/wall/f13/ruins,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "lk" = (
 /obj/structure/table/wood,
 /obj/machinery/processor/chopping_block,
@@ -1372,6 +1524,23 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/sunset/brick_small_dark,
 /area/space)
+"lR" = (
+/obj/structure/flora/grass/wasteland,
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = 8;
+	pixel_y = 30;
+	name = "Satellite Dish Pole"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
+"lS" = (
+/obj/structure/closet/fridge,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "lW" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -1405,6 +1574,21 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/space)
+"mh" = (
+/obj/structure/flora/grass/wasteland,
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/bed/mattress{
+	icon_state = "mattress2"
+	},
+/mob/living/simple_animal/hostile/raider/tribal{
+	name = "Raider Bob"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "mi" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/backpack/duffelbag,
@@ -1444,6 +1628,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
+/area/space)
+"mw" = (
+/obj/structure/kitchenspike,
+/obj/item/bodypart/chest{
+	pixel_x = 2;
+	pixel_y = -10
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "my" = (
 /obj/structure/table,
@@ -1488,6 +1680,18 @@
 	dir = 4;
 	icon_state = "graveldirtedge"
 	},
+/area/space)
+"mH" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "mI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1645,6 +1849,15 @@
 /obj/structure/flora/tree/jungle,
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
+"nW" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/reagent_dispensers/compostbin,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "oc" = (
 /obj/structure/closet/wardrobe/black,
 /turf/open/floor/plasteel/f13{
@@ -1705,6 +1918,16 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"oC" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/destructible/tribal_torch/wall/lit,
+/obj/structure/table/wood/settler,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "oD" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -1731,6 +1954,14 @@
 /obj/item/instrument/guitar,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
+	},
+/area/space)
+"oK" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
 	},
 /area/space)
 "oO" = (
@@ -1767,6 +1998,18 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"pw" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
+/mob/living/simple_animal/hostile/raider/tribal{
+	name = "Raider Billy"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "pz" = (
 /obj/effect/turf_decal/big/energy{
 	pixel_x = 16;
@@ -1833,6 +2076,17 @@
 	light_color = "#f4e3b0"
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
+/area/space)
+"qf" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
+	},
 /area/space)
 "qg" = (
 /turf/open/floor/plasteel/f13{
@@ -2009,6 +2263,14 @@
 /obj/structure/flora/tree/joshua,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"rP" = (
+/obj/effect/decal/remains{
+	icon_state = "remains";
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "rQ" = (
 /turf/open/indestructible/ground/outside/road{
 	dir = 8;
@@ -2076,6 +2338,10 @@
 	icon_state = "graveldirtedge"
 	},
 /area/space)
+"sH" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "sL" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor1-old"
@@ -2124,6 +2390,12 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"tB" = (
+/obj/structure/simple_door/tentflap_cloth,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "tE" = (
 /obj/structure/nest/molerat,
 /turf/open/indestructible/ground/outside/road{
@@ -2181,6 +2453,11 @@
 	icon_state = "dirt"
 	},
 /area/space)
+"ug" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/space)
 "uh" = (
 /obj/machinery/light{
 	dir = 8
@@ -2190,6 +2467,11 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"uj" = (
+/turf/closed/wall/f13/ruins,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "um" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/f13/store/constructed,
@@ -2233,9 +2515,32 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"uM" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/obj/item/stack/f13Cash/random/med,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "uO" = (
 /turf/open/floor/wood_common,
 /area/space)
+"uQ" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "uS" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -2325,6 +2630,22 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
+/area/space)
+"vX" = (
+/obj/structure/stairs/west{
+	icon = 'icons/turf/f13road.dmi';
+	icon_state = "crossborderroundmid";
+	name = "Upwards Road"
+	},
+/obj/structure/railing{
+	layer = 4.1
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
+	},
+/area/space)
+"wc" = (
+/turf/open/indestructible,
 /area/space)
 "wd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2479,6 +2800,10 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"xn" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "xp" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2504,6 +2829,12 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"xG" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "xI" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor5";
@@ -2545,6 +2876,15 @@
 	tag = "icon-verticalrightborderright1"
 	},
 /area/space)
+"ye" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/item/stack/sheet/bone,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "yf" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
@@ -2579,6 +2919,11 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh{
 	icon_state = "outerpavement"
+	},
+/area/space)
+"yx" = (
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/space)
 "yJ" = (
@@ -2661,6 +3006,17 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"zJ" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/bed/mattress{
+	icon_state = "mattress5"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "zN" = (
 /obj/effect/decal/marking{
 	icon_state = "doublevertical"
@@ -2680,6 +3036,15 @@
 "Aa" = (
 /mob/living/simple_animal/hostile/bloatfly,
 /turf/open/water,
+/area/space)
+"Ac" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/car/rubbish3,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
 /area/space)
 "Af" = (
 /obj/structure/closet/fridge,
@@ -2759,6 +3124,13 @@
 	},
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/outside/road,
+/area/space)
+"AN" = (
+/obj/structure/railing/wood{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "AQ" = (
 /obj/structure/barricade/sandbags,
@@ -2866,6 +3238,15 @@
 /obj/item/chair/folding,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"Ce" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Cf" = (
 /mob/living/simple_animal/hostile/raider{
 	name = "Razor Twins Raider"
@@ -2911,6 +3292,13 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Cr" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/shovel/spade,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "Cs" = (
 /obj/effect/decal/riverbank,
 /turf/open/water,
@@ -2945,6 +3333,12 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrusty"
+	},
+/area/space)
+"CJ" = (
+/obj/structure/car/rubbish2,
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
 	},
 /area/space)
 "CM" = (
@@ -2984,12 +3378,24 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/space)
+"CZ" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Da" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
+/area/space)
+"Dg" = (
+/obj/item/stack/sheet/bone,
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "Dh" = (
 /turf/closed/wall/f13/tunnel,
@@ -3076,6 +3482,12 @@
 	icon_state = "dirt"
 	},
 /area/space)
+"DC" = (
+/obj/structure/simple_door/interior,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "DE" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/curtain{
@@ -3143,6 +3555,31 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"El" = (
+/obj/structure/stairs/west{
+	icon = 'icons/turf/f13road.dmi';
+	icon_state = "crossborderroundmid";
+	name = "Upwards Road"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
+	},
+/area/space)
+"Em" = (
+/obj/structure/window/fulltile/house{
+	dir = 2
+	},
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Eo" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -3162,6 +3599,20 @@
 /obj/structure/ore_box,
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"Ev" = (
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/raider/tribal{
+	name = "Overpass Raider"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "EC" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/f13{
@@ -3189,6 +3640,10 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
+/area/space)
+"EX" = (
+/obj/structure/punji_sticks,
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "EY" = (
 /obj/effect/landmark/start/f13/slave,
@@ -3249,12 +3704,21 @@
 /obj/effect/landmark/start/f13/slave,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"FB" = (
+/obj/machinery/telecomms/relay/preset/telecomms,
+/turf/open/indestructible,
+/area/space)
 "FH" = (
 /obj/effect/overlay/junk/oldpipes,
 /turf/open/indestructible/ground/outside/dirt/harsh/corner{
 	dir = 4
 	},
 /area/space)
+"FI" = (
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "FJ" = (
 /obj/effect/overlay/junk/sink{
 	dir = 4;
@@ -3322,6 +3786,14 @@
 	icon_state = "dirtcorner"
 	},
 /area/space)
+"Gf" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "horizontalbottomborderbottom0"
+	},
+/area/space)
 "Gi" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -3340,6 +3812,11 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
+	},
+/area/space)
+"Gn" = (
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
 	},
 /area/space)
 "Go" = (
@@ -3498,6 +3975,12 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"Hv" = (
+/obj/item/stack/sheet/bone,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "Hx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3515,6 +3998,24 @@
 /obj/structure/flora/grass/jungle/b,
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
+"HI" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/bed/mattress{
+	icon_state = "mattress2"
+	},
+/obj/item/reagent_containers/pill/patch/jet{
+	pixel_x = -12;
+	pixel_y = -4
+	},
+/mob/living/simple_animal/hostile/raider/tribal{
+	name = "Raider Thornton"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "HK" = (
 /obj/machinery/light{
 	dir = 4
@@ -3536,6 +4037,19 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"HR" = (
+/obj/structure/table/wood/settler,
+/obj/machinery/computer/terminal{
+	pixel_y = 3;
+	desc = "A RobCo Industries terminal, widely available for commercial and private use before the war. This ones screen seems to have the faint image of some sort of game involving theme parks burned into it."
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "HS" = (
 /obj/structure/bonfire,
 /turf/open/indestructible/ground/inside/dirt,
@@ -3553,6 +4067,13 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Ic" = (
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Id" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3608,6 +4129,12 @@
 "Ir" = (
 /turf/open/indestructible/ground/outside/dirt/harsh/side{
 	dir = 1
+	},
+/area/space)
+"Is" = (
+/obj/structure/car/rubbish3,
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
 	},
 /area/space)
 "Iv" = (
@@ -3814,6 +4341,12 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"Ku" = (
+/obj/structure/dresser,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Kx" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -3858,6 +4391,13 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"KV" = (
+/obj/structure/flora/grass/wasteland,
+/obj/structure/railing/wood{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "Ld" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /obj/effect/decal/cleanable/dirt,
@@ -3865,6 +4405,30 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Lf" = (
+/mob/living/simple_animal/hostile/raider/tribal{
+	name = "Overpass Raider"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
+"Lj" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = 13;
+	pixel_y = 0;
+	density = 0
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
+"Lk" = (
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Ll" = (
 /obj/structure/barricade/tentclothcorner{
 	dir = 1
@@ -3874,6 +4438,11 @@
 	icon_state = "graveldirtedge"
 	},
 /area/space)
+"Ln" = (
+/turf/closed/wall/f13/wood/house,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Lz" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0";
@@ -3933,6 +4502,12 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"Mx" = (
+/obj/effect/decal/remains{
+	icon_state = "remains"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "My" = (
 /obj/structure/tires/five{
 	pixel_x = 3;
@@ -3943,6 +4518,23 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"Mz" = (
+/obj/structure/bed/mattress{
+	icon_state = "mattress4"
+	},
+/obj/item/melee/onehanded/knife/cosmicdirty{
+	pixel_x = -13;
+	pixel_y = -5
+	},
+/obj/effect/decal/remains{
+	icon_state = "remains";
+	pixel_x = 9;
+	pixel_y = 10
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "MC" = (
 /obj/item/storage/belt,
 /obj/structure/rack/large/shelf_rust,
@@ -4014,6 +4606,23 @@
 	icon_state = "outerpavement"
 	},
 /area/space)
+"Nf" = (
+/obj/structure/simple_door/tentflap_cloth{
+	pixel_y = -3
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "Nh" = (
 /obj/structure/closet/locker,
 /obj/item/clothing/under/f13/mechanic,
@@ -4092,6 +4701,14 @@
 	dir = 1
 	},
 /area/space)
+"NF" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/closed/wall/f13/ruins,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "NL" = (
 /obj/item/reagent_containers/blood/radaway,
 /obj/structure/rack/large/shelf_rust,
@@ -4120,6 +4737,32 @@
 /area/space)
 "NZ" = (
 /turf/open/floor/carpet/black,
+/area/space)
+"Oa" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/stairs/north{
+	dir = 8;
+	icon = 'icons/turf/f13road.dmi';
+	icon_state = "crossborderroundmid";
+	name = "overpass";
+	desc = "That's totally an overpass, and not some kind of stairs.  Promise."
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/stairs/west{
+	icon = 'icons/turf/f13road.dmi';
+	icon_state = "crossborderroundmid";
+	name = "Upwards Road"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
+	},
 /area/space)
 "Oe" = (
 /turf/open/indestructible/ground/outside/graveldirt{
@@ -4271,6 +4914,23 @@
 /obj/machinery/mineral/ore_redemption,
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"Pz" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/campfire{
+	pixel_x = 11;
+	pixel_y = 22
+	},
+/obj/item/stack/sheet/bone,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
+"PC" = (
+/obj/structure/car/rubbish3,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "PF" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/cash_legion_low,
@@ -4343,6 +5003,25 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"Qu" = (
+/obj/structure/bed,
+/obj/item/bedsheet{
+	icon_state = "sheetgrey"
+	},
+/obj/effect/decal/remains{
+	icon_state = "remains";
+	pixel_x = -2;
+	pixel_y = -5;
+	name = "Mr. Bones";
+	desc = "Looks like he got off the wild ride afterall."
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Qv" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern,
@@ -4350,6 +5029,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"Qy" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	light_color = "#f4e3b0";
+	pixel_y = 12
+	},
+/obj/structure/table/wood/settler,
+/obj/item/seeds/bamboo,
+/obj/item/seeds/poppy/broc{
+	pixel_y = 2;
+	pixel_x = -5
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "QD" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -4423,6 +5118,20 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"Rn" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
+/obj/machinery/hydroponics/soil,
+/obj/item/reagent_containers/glass/bucket/wood,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "Ro" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip,
@@ -4445,6 +5154,10 @@
 	icon_state = "outerpavement";
 	dir = 10
 	},
+/area/space)
+"RC" = (
+/obj/structure/destructible/tribal_torch/lit,
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "RF" = (
 /obj/structure/simple_door/room/dirty{
@@ -4528,6 +5241,19 @@
 	icon_state = "greenrusty"
 	},
 /area/space)
+"Sl" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = -15;
+	density = 0
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Sm" = (
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/plasteel/f13{
@@ -4595,6 +5321,14 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"SO" = (
+/mob/living/simple_animal/hostile/lizard{
+	name = "Licks-The-Transistors";
+	AIStatus = 0;
+	desc = "A very crispy looking lizard."
+	},
+/turf/open/indestructible,
+/area/space)
 "SS" = (
 /turf/open/indestructible/ground/outside/graveldirt{
 	dir = 9;
@@ -4606,6 +5340,18 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"Ta" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/table/wood/settler,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "Tb" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -4629,6 +5375,14 @@
 /mob/living/simple_animal/hostile/cazador,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"Tl" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Trailer"
+	})
 "Tn" = (
 /turf/open/indestructible/ground/outside/dirt/harsh/corner{
 	dir = 8
@@ -4672,6 +5426,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrustychess"
 	},
+/area/space)
+"Tv" = (
+/obj/structure/railing/wood{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "TB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4903,6 +5663,12 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Vi" = (
+/obj/structure/debris/v3,
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "crossborderroundmid"
+	},
+/area/space)
 "Vo" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	dir = 6;
@@ -5047,6 +5813,27 @@
 /mob/living/simple_animal/hostile/radroach,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"Xh" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
+"Xi" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/barricade/wooden,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "Xn" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/effect/decal/cleanable/dirt,
@@ -5131,6 +5918,9 @@
 /obj/item/pickaxe,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"Yc" = (
+/turf/closed/indestructible/riveted,
+/area/space)
 "Yh" = (
 /obj/structure/bed/old,
 /obj/item/blanket,
@@ -5148,6 +5938,18 @@
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/structure/table/wood/junk,
 /turf/open/indestructible/ground/outside/road,
+/area/space)
+"Yq" = (
+/obj/effect/decal/remains{
+	icon_state = "remains"
+	},
+/obj/item/twohanded/baseball/spiked{
+	pixel_x = -14;
+	pixel_y = 4;
+	name = "Big Billys Smash'n'Masher";
+	desc = "He built it, they came."
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "Yu" = (
 /obj/structure/simple_door/repaired{
@@ -5195,11 +5997,26 @@
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"YM" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/cultivator,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/village{
+	name = "Overpass Village - Lower"
+	})
 "YS" = (
 /mob/living/simple_animal/hostile/raider/firefighter{
 	name = "Razor Twins Raider"
 	},
 /turf/open/indestructible/ground/outside/road,
+/area/space)
+"YT" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
 /area/space)
 "YW" = (
 /obj/machinery/porta_turret/syndicate/vehicle_turret{
@@ -62754,11 +63571,11 @@ KK
 KK
 fb
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Ln
+Em
+Em
+Em
+Ln
 Iv
 Iv
 Iv
@@ -63011,17 +63828,17 @@ wR
 KK
 Iv
 Iv
+Ln
+Lk
+CZ
+Qu
+Ln
 Iv
 Iv
 Iv
 Iv
-AI
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+EX
 Iv
 Iv
 Iv
@@ -63268,23 +64085,23 @@ KK
 KK
 Iv
 Iv
+Ln
+Ev
+Lk
+Ku
+Ln
 Iv
 Iv
 Iv
+RC
 Iv
 Iv
 Iv
+xn
+Dg
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+RC
 hj
 Iv
 Iv
@@ -63525,22 +64342,22 @@ KK
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Ln
+DC
+Ln
+Ln
+Ln
 Iv
 Iv
 hj
 Iv
 Iv
 Iv
+sH
+hF
 Iv
-Iv
-Iv
-Iv
-Iv
+Mx
+EX
 Iv
 Iv
 Iv
@@ -63782,21 +64599,21 @@ HB
 Iv
 Iv
 Iv
-AI
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
-Iv
+Ln
+CZ
+Ic
+ef
+Ln
 Iv
 Iv
 Iv
 Iv
 Iv
+EX
+xn
 Iv
+Dg
+xn
 Iv
 Iv
 Iv
@@ -64039,24 +64856,24 @@ Kh
 Iv
 Iv
 Iv
-AI
-Iv
-Iv
-Iv
-Iv
+Ic
+Ce
+Ln
+uM
+Ln
 Iv
 Iv
 Iv
 Iv
 Iv
 hj
+mw
+Yq
 Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
+EX
 Iv
 Iv
 Iv
@@ -64296,22 +65113,22 @@ Iv
 Iv
 Iv
 Iv
+Ln
+CZ
+Ln
+Ln
+Ln
+KV
+Tv
 Iv
 Iv
 Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+uj
+xG
+fj
+tB
+cH
+uj
 Iv
 Iv
 Iv
@@ -64553,24 +65370,24 @@ Iv
 Iv
 Iv
 Iv
+Ln
+ec
+HR
+gP
+Ln
+Lk
+Sl
+EX
 Iv
 Iv
+xG
+Rn
+Cr
+FI
+pw
+xG
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+EX
 Iv
 AI
 Iv
@@ -64810,22 +65627,22 @@ Iv
 Iv
 Iv
 Iv
+eZ
+Lk
+Lf
+CZ
+DC
+CZ
+Lj
+mH
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+cH
+aX
+YM
+FI
+FI
+tB
 Iv
 Iv
 Iv
@@ -65067,26 +65884,26 @@ Iv
 Iv
 Iv
 Iv
+Ln
+fo
+Lk
+lS
+Ln
+jB
+AN
+mH
+mH
+mH
+Nf
+Tl
+FI
+eW
+eW
+cH
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+EX
 Iv
 Iv
 Iv
@@ -65324,22 +66141,22 @@ Iv
 Iv
 Iv
 Iv
+Ln
+eZ
+eZ
+eZ
+Ln
+lR
+Iv
+mH
 Iv
 Iv
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
+fj
+nW
+mh
+bg
+FI
+fj
 Iv
 Iv
 Iv
@@ -65587,16 +66404,16 @@ hj
 Iv
 Iv
 Iv
+PC
+mH
+EX
 Iv
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
-hj
-Iv
+li
+zJ
+ye
+Pz
+FI
+uj
 Iv
 Iv
 Iv
@@ -65844,19 +66661,19 @@ Iv
 Iv
 Iv
 Iv
+rP
+mH
+mH
+Iv
+xG
+FI
+Hv
+uQ
+FI
+xG
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+EX
 Iv
 Iv
 Iv
@@ -66103,14 +66920,14 @@ Iv
 Iv
 Iv
 Iv
+mH
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+cH
+Mz
+FI
+HI
+FI
+tB
 Iv
 Iv
 Iv
@@ -66359,15 +67176,15 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+EX
+mH
+mH
+Xi
+eW
+eW
+uQ
+eW
+fj
 Iv
 Iv
 Iv
@@ -66618,13 +67435,13 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+mH
+Xh
+Qy
+gT
+Ta
+oC
+xG
 Iv
 Iv
 Iv
@@ -66875,13 +67692,13 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+mH
+uj
+uj
+uj
+NF
+uj
+uj
 Iv
 Iv
 Iv
@@ -67132,13 +67949,13 @@ Iv
 Iv
 Iv
 hj
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+mH
+El
+dx
+dx
+dx
+dx
+vX
 Iv
 Iv
 Iv
@@ -67389,13 +68206,13 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
+mH
+El
+dx
+dx
+dx
+dx
+vX
 Iv
 Iv
 Iv
@@ -67644,15 +68461,15 @@ Iv
 Iv
 Iv
 Iv
+iJ
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+mH
+Oa
+dx
+dx
+dx
+dx
+vX
 hj
 Iv
 Iv
@@ -67903,14 +68720,14 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+ug
+Gn
+oK
+Ik
+yx
+oK
+Gn
+yx
 Iv
 Iv
 Iv
@@ -68160,14 +68977,14 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+ug
+oK
+Gn
+Ik
+yx
+YT
+Gn
+yx
 Iv
 Iv
 Iv
@@ -68417,14 +69234,14 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-AI
-Iv
+ug
+oK
+oK
+Gn
+yx
+Ac
+oK
+yx
 Iv
 Iv
 Iv
@@ -68674,14 +69491,14 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-bS
-bS
-bS
-bS
-bS
-bS
+ug
+qf
+Gn
+Gn
+Gn
+CJ
+oK
+yx
 Iv
 Iv
 Iv
@@ -68931,14 +69748,14 @@ Iv
 Iv
 Iv
 Iv
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+ug
+fl
+oK
+Gn
+Gn
+oK
+Gn
+Gf
 bS
 bS
 Iv
@@ -68953,13 +69770,13 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Nt
+Nt
+Nt
+Nt
+Nt
+Nt
 bS
 bS
 bS
@@ -69188,6 +70005,14 @@ bS
 bS
 bS
 bS
+ug
+YT
+oK
+Gn
+oK
+Gn
+Ik
+yx
 bS
 bS
 bS
@@ -69202,21 +70027,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Yc
+Yc
+Yc
+Yc
+Yc
+Nt
 bS
 bS
 bS
@@ -69445,6 +70262,14 @@ bS
 bS
 bS
 bS
+ug
+oK
+oK
+Gn
+Gf
+Gn
+Gn
+Gf
 bS
 bS
 bS
@@ -69459,21 +70284,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Yc
+SO
+wc
+wc
+Yc
+Nt
 bS
 bS
 bS
@@ -69702,6 +70519,14 @@ bS
 bS
 bS
 bS
+ug
+oK
+Is
+oK
+yx
+Gn
+Gn
+Gf
 bS
 bS
 bS
@@ -69716,21 +70541,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Yc
+wc
+FB
+wc
+Yc
+Nt
 bS
 bS
 bS
@@ -69959,6 +70776,14 @@ bS
 bS
 bS
 bS
+ug
+oK
+Gn
+Gn
+yx
+Ik
+Gn
+Gf
 bS
 bS
 bS
@@ -69973,21 +70798,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Yc
+wc
+wc
+wc
+Yc
+Nt
 bS
 bS
 bS
@@ -70216,6 +71033,14 @@ bS
 bS
 bS
 bS
+ug
+Gn
+Gn
+Vi
+Gn
+Gn
+Vi
+yx
 bS
 bS
 bS
@@ -70230,21 +71055,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Yc
+Yc
+Yc
+Yc
+Yc
+Nt
 bS
 bS
 bS
@@ -70473,6 +71290,14 @@ bS
 bS
 bS
 bS
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
 bS
 bS
 bS
@@ -70487,21 +71312,13 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Nt
+Nt
+Nt
+Nt
+Nt
+Nt
+Nt
 bS
 bS
 bS
