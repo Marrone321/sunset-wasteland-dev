@@ -130,6 +130,14 @@
 	/obj/structure/falsewall)
 	smooth = SMOOTH_MORE
 
+/obj/structure/lattice/catwalk/rustic
+	name = "lattice"
+	desc = "A rusted metal lattice for filtration."
+	icon = 'icons/obj/smooth_structures/catwalk_other.dmi'
+	icon_state = "lattice"
+	smooth = SMOOTH_FALSE
+	canSmoothWith = null
+
 /obj/structure/lattice/catwalk/clockwork/Initialize(mapload)
 	. = ..()
 	ratvar_act()

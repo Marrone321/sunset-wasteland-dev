@@ -81,3 +81,5 @@
 	for(var/atom/movable/AM in contents)
 		AM.water_act(amount)
 
+/turf/open/water/stagnant
+	icon_state = "stagnant"

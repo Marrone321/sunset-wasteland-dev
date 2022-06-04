@@ -116,3 +116,10 @@
 	icon = 'icons/fallout/objects/structures/shed.dmi'
 	brightness = 3
 	light_color = LIGHT_COLOR_YELLOW
+
+/obj/structure/light/sign/fairy
+	name = "fairy lights"
+	desc = "Flashy and pretty."
+	icon = 'icons/fallout/objects/structures/fairylight.dmi'
+	icon_state = "xmaslights"
+	light_color = LIGHT_COLOR_RED

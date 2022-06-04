@@ -246,14 +246,14 @@
 //	WOODEN DOORS
 
 // weathered white door
-/obj/structure/simple_door/house 
+/obj/structure/simple_door/house
 	icon_state = "house"
 	door_type = "house"
 	can_disasemble = TRUE
 	can_hold_padlock = TRUE
 
 // cleaned and repainted white
-/obj/structure/simple_door/house/clean 
+/obj/structure/simple_door/house/clean
 	icon_state = "houseclean"
 	door_type = "houseclean"
 
@@ -288,6 +288,13 @@
 	icon_state = "room_repaired"
 	door_type = "room_repaired"
 	can_hold_padlock = TRUE
+
+/obj/structure/simple_door/dungeon/circus
+	name = "circus banner"
+	desc = "Some sort of printed banner fastened to the wall."
+	icon_state = "circus"
+	door_type = "circus"
+	can_hold_padlock = FALSE
 
 
 // ---------------------------------------------
@@ -359,7 +366,7 @@
 	base_opacity = FALSE
 	can_hold_padlock = TRUE
 	proj_pass_rate = 95
-	pass_flags = LETPASSTHROW 
+	pass_flags = LETPASSTHROW
 
 /obj/structure/simple_door/dirtyglass
 	desc = "The glass is dirty, you can't see a thing behind it."

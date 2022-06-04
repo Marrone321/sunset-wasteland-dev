@@ -61,3 +61,24 @@
 
 /obj/structure/sign/plaques/long/paradise
 	icon_state = "treebanner"
+
+/obj/structure/sign/plaques/circus
+	name = "circus banner"
+	desc = "Some sort of printed banner fastened to the wall."
+	icon = 'icons/obj/decalscircus.dmi'
+	icon_state = "circus"
+
+/obj/structure/sign/plaques/circus/alt
+	icon_state = "circus2"
+
+/obj/structure/sign/plaques/graffiti
+	name = "graffiti"
+	desc = "Wall scrawlings."
+	icon = 'icons/obj/decals6432.dmi'
+	icon_state = "graffiti1"
+
+/obj/structure/sign/plaques/graffiti2
+	name = "graffiti"
+	desc = "Wall scrawlings."
+	icon = 'icons/obj/decals6432.dmi'
+	icon_state = "graffiti2"

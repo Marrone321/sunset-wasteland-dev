@@ -319,6 +319,12 @@
 /turf/open/floor/plasteel/bar
 	icon_state = "bar"
 
+/turf/open/floor/plasteel/circustrue
+	icon_state = "circustrue"
+
+/turf/open/floor/plasteel/circusfalse
+	icon_state = "circusfalse"
+
 /turf/open/floor/plasteel/airless/bar
 	icon_state = "bar"
 
