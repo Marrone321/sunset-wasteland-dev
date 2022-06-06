@@ -354,6 +354,16 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"bF" = (
+/obj/structure/reagent_dispensers/barrel/three{
+	pixel_x = -13
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "bG" = (
 /obj/item/chair/wood,
 /turf/open/floor/plasteel/f13/stone/rugged,
@@ -385,6 +395,19 @@
 "bX" = (
 /turf/closed/wall/r_wall/rust,
 /area/space)
+"ca" = (
+/obj/structure/car/rubbish3{
+	icon_state = "car_rubish2"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "ce" = (
 /turf/open/indestructible/ground/outside/graveldirt{
 	dir = 5;
@@ -399,6 +422,16 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"cg" = (
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "cm" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13{
@@ -441,6 +474,11 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"cv" = (
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "cy" = (
 /obj/effect/turf_decal/huge/razor{
 	dir = 4;
@@ -450,6 +488,17 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"cD" = (
+/obj/machinery/vending/cigarette,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "cH" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag{
@@ -552,6 +601,19 @@
 	icon_state = "crossborderroundmid"
 	},
 /area/space)
+"dB" = (
+/obj/item/chair/wood{
+	pixel_y = -6
+	},
+/obj/effect/decal/remains/human{
+	pixel_x = 10;
+	desc = "Those are definitely the remains of a person, the skull seems to have a small hole in the left temple, and the right side of it is flat out blown out.  You can guess how that happened."
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "dD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -560,6 +622,14 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"dE" = (
+/obj/structure/obstacle/barbedwire/end{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "dI" = (
 /obj/structure/fence{
 	dir = 8;
@@ -581,6 +651,20 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"dR" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/debris/v1{
+	pixel_x = -16;
+	density = 0dddd
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "dV" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -662,6 +746,13 @@
 /turf/open/indestructible/ground/outside/graveldirt{
 	dir = 1
 	},
+/area/space)
+"et" = (
+/obj/structure/wreck/car/bike{
+	dir = 4;
+	desc = "An old pre-war motorcycle, this ones wheels have been pulled off and it's clear parts are just flat out missing.  It's very ruined."
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "eu" = (
 /obj/item/storage/pill_bottle/stimulant,
@@ -768,6 +859,12 @@
 /area/f13/village{
 	name = "Overpass Village - Lower"
 	})
+"eY" = (
+/obj/structure/fence/corner,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "eZ" = (
 /obj/structure/window/fulltile/house{
 	dir = 2
@@ -837,6 +934,18 @@
 	icon_state = "greenrusty"
 	},
 /area/space)
+"ft" = (
+/obj/machinery/light/sign/kebab{
+	pixel_y = 11;
+	pixel_x = -12
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerturn";
+	dir = 8
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "fu" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
 /obj/structure/rack/large/shelf_rust,
@@ -856,6 +965,19 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"fF" = (
+/obj/item/wrench{
+	pixel_x = 11;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/glass/rag{
+	pixel_x = -12;
+	desc = "An oily rag that really could use a good cleaning.";
+	name = "Oily rag"
+	},
+/obj/item/chair/stool,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "fG" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/plasteel/f13{
@@ -867,6 +989,22 @@
 	icon_state = "verticalinnermain2top"
 	},
 /area/space)
+"fN" = (
+/obj/item/stack/sheet/animalhide/gondola{
+	name = "TK says you're a butt for clicking on me"
+	},
+/turf/closed/mineral/random/low_chance,
+/area/space)
+"fQ" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "fR" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor5";
@@ -885,6 +1023,15 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"fV" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 4;
+	icon_state = "outerturn";
+	tag = "icon-outerturn (EAST)"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "gc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -920,6 +1067,16 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"gn" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "go" = (
 /obj/structure/simple_door/metal/barred{
 	name = "Slave Keep"
@@ -933,6 +1090,12 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"gI" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "gO" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/knife/butcher,
@@ -1107,6 +1270,24 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
+"hV" = (
+/obj/structure/barricade/wooden,
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
+"hY" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerturn";
+	dir = 1
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "ic" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontalcorroded"
@@ -1225,6 +1406,18 @@
 	icon_state = "dirtcorner"
 	},
 /area/space)
+"iQ" = (
+/obj/structure/stairs/east,
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "iT" = (
 /obj/structure/billboard/ritas{
 	icon_state = "advert3";
@@ -1281,6 +1474,16 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"jo" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "jq" = (
 /obj/structure/closet/crate,
 /obj/effect/decal/cleanable/dirt{
@@ -1311,6 +1514,19 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"jy" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/microwave/stove{
+	density = 0
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "jA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1364,6 +1580,35 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"jZ" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = -15;
+	density = 0
+	},
+/obj/structure/obstacle/barbedwire/end,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
+"kd" = (
+/obj/structure/stairs/east{
+	name = "Firetower stairs"
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	color = "#A47449"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "kf" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
@@ -1398,6 +1643,17 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"kB" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "kC" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4;
@@ -1405,6 +1661,28 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"kD" = (
+/obj/effect/spawner/lootdrop/trash,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
+"kF" = (
+/obj/effect/decal/marking{
+	icon_state = "doublevertical"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "kH" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	icon_state = "dirt";
@@ -1427,6 +1705,20 @@
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"kW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/water,
+/area/space)
+"kZ" = (
+/obj/effect/decal/marking{
+	icon_state = "doublevertical"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "lb" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -1488,6 +1780,24 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"lA" = (
+/obj/structure/lamp_post/doubles/bent{
+	dir = 2
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft1"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
+"lC" = (
+/obj/structure/nest/gecko,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "lD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
@@ -1508,6 +1818,14 @@
 /obj/effect/turf_decal/weather/dirt,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"lG" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "lK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -1573,6 +1891,13 @@
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft0"
 	},
+/area/space)
+"mg" = (
+/obj/item/storage/toolbox{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "mh" = (
 /obj/structure/flora/grass/wasteland,
@@ -1652,6 +1977,16 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"mA" = (
+/obj/structure/barricade/wooden,
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "mB" = (
 /obj/effect/decal/marking{
 	icon_state = "doublevertical"
@@ -1660,6 +1995,14 @@
 	icon_state = "horizontalinnermain2"
 	},
 /area/space)
+"mC" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "mD" = (
 /obj/structure/barricade/bars,
 /obj/structure/decoration/rag{
@@ -1754,12 +2097,28 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
 /area/space)
+"ne" = (
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "nf" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"nj" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "nl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -1781,6 +2140,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"nv" = (
+/obj/structure/table,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "ny" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
@@ -1808,6 +2173,16 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"nH" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "nI" = (
 /obj/item/storage/trash_stack,
 /obj/machinery/light/broken{
@@ -1864,6 +2239,14 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"od" = (
+/obj/structure/obstacle/barbedwire{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "of" = (
 /obj/machinery/workbench,
 /turf/open/floor/f13{
@@ -1922,7 +2305,12 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/structure/destructible/tribal_torch/wall/lit,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	light_color = "#000000";
+	icon = null;
+	icon_state = null;
+	desc = "The shadows from the building above cast this area in darkness."
+	},
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/village{
@@ -1956,6 +2344,14 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"oJ" = (
+/obj/structure/chair/left,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "oK" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -1972,6 +2368,13 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"oR" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerturn"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "oT" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/blood/radaway,
@@ -2037,6 +2440,15 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"pG" = (
+/obj/structure/window/fulltile/house,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "pJ" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -2077,6 +2489,14 @@
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"qd" = (
+/obj/structure/table/booth,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "qf" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -2150,6 +2570,24 @@
 	dir = 4
 	},
 /area/space)
+"qM" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
+"qO" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "qT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -2285,6 +2723,20 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"rU" = (
+/mob/living/simple_animal/hostile/gecko{
+	resize = 1.3;
+	name = "Chonko";
+	color = "#ff0000";
+	desc = "Damn boy, that's a thick ass boy!";
+	health = 80sssssssssssssssss
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "sc" = (
 /obj/structure/billboard/ritas{
 	icon_state = "advert2";
@@ -2322,6 +2774,14 @@
 	},
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
+"sm" = (
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "st" = (
 /obj/structure/wreck/trash/five_tires{
 	pixel_x = 12
@@ -2338,6 +2798,17 @@
 	icon_state = "graveldirtedge"
 	},
 /area/space)
+"sy" = (
+/obj/structure/table,
+/obj/item/storage/fancy/cigarettes/cigpack_greytort,
+/obj/item/lighter{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "sH" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -2358,6 +2829,10 @@
 /turf/open/indestructible/ground/outside/desert/harsh{
 	icon_state = "outerpavement"
 	},
+/area/space)
+"tc" = (
+/obj/structure/billboard/cola/pristine,
+/turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
 "th" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2390,6 +2865,17 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"tx" = (
+/obj/structure/car/rubbish3,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "tB" = (
 /obj/structure/simple_door/tentflap_cloth,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -2407,6 +2893,13 @@
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood,
 /area/space)
+"tH" = (
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "tL" = (
 /obj/structure/bonfire,
 /turf/open/indestructible/ground/outside/graveldirt{
@@ -2414,6 +2907,14 @@
 	icon_state = "graveldirtedge"
 	},
 /area/space)
+"tO" = (
+/obj/structure/flora/grass/wasteland,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "tQ" = (
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -2434,6 +2935,19 @@
 	icon_state = "horizontalinnermain2"
 	},
 /area/space)
+"tZ" = (
+/obj/structure/car/rubbish3,
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -8
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "uc" = (
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /obj/effect/decal/cleanable/dirt,
@@ -2453,6 +2967,17 @@
 	icon_state = "dirt"
 	},
 /area/space)
+"uf" = (
+/obj/effect/decal/marking,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "ug" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0"
@@ -2476,6 +3001,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/f13/store/constructed,
 /area/space)
+"up" = (
+/obj/structure/junk/jukebox,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "ur" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	dir = 6;
@@ -2509,6 +3042,12 @@
 /obj/item/melee/unarmed/brass,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"uG" = (
+/obj/structure/obstacle/barbedwire/end,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "uH" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/low,
 /turf/open/floor/plasteel/f13{
@@ -2547,6 +3086,14 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
+"uV" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "uZ" = (
 /obj/structure/campfire/barrel,
 /turf/open/indestructible/ground/outside/road,
@@ -2582,6 +3129,14 @@
 	icon_state = "whiteyellowrustychess"
 	},
 /area/space)
+"vA" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "vC" = (
 /turf/open/floor/f13{
 	icon_state = "yellowrustychess"
@@ -2621,6 +3176,24 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"vQ" = (
+/obj/structure/reagent_dispensers/barrel/three{
+	pixel_x = -13
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
+"vU" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "vW" = (
 /obj/item/shovel,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -2662,6 +3235,16 @@
 	tag = "icon-outerborder (WEST)"
 	},
 /area/space)
+"wp" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "wt" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /obj/structure/rack/large/shelf_rust{
@@ -2707,6 +3290,22 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"wH" = (
+/obj/machinery/mineral/wasteland_vendor/crafting{
+	icon_state = "parts_idle"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
+"wI" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "outerturn";
+	dir = 8
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "wL" = (
 /obj/item/storage/trash_stack,
 /obj/effect/decal/cleanable/dirt,
@@ -2866,6 +3465,26 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"xU" = (
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -8
+	},
+/obj/structure/reagent_dispensers/barrel/three{
+	pixel_x = -13
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
+"xW" = (
+/turf/closed/wall/f13/wood/house,
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "ya" = (
 /obj/machinery/light{
 	dir = 4;
@@ -2876,6 +3495,21 @@
 	tag = "icon-verticalrightborderright1"
 	},
 /area/space)
+"yd" = (
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -8
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "ye" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -2926,12 +3560,26 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/space)
+"yH" = (
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "yJ" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright1";
 	tag = "icon-verticalrightborderright1"
 	},
 /area/space)
+"yM" = (
+/obj/structure/simple_door/interior,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "yO" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -2952,6 +3600,13 @@
 	icon_state = "floorrustysolid"
 	},
 /area/space)
+"yT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "yV" = (
 /mob/living/simple_animal/hostile/raider/baseball{
 	name = "Razor Twins Raider"
@@ -3006,6 +3661,25 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"zI" = (
+/obj/structure/closet/fridge/standard,
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/effect/spawner/lootdrop/f13/alcoholspawner,
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "zJ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -3070,6 +3744,14 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Ap" = (
+/obj/machinery/mineral/wasteland_trader/general{
+	icon_state = "trade_idle"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "Ar" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /obj/structure/rack/large/shelf_rust{
@@ -3164,6 +3846,21 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"Bd" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	light_color = "#FFFFFF";
+	icon = null;
+	icon_state = null;
+	desc = "The shadows from the building above cast this area in darkness.";
+	name = "ambient lighting";
+	light_power = .2
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "Bl" = (
 /turf/open/floor/plasteel/f13{
 	dir = 4;
@@ -3187,6 +3884,36 @@
 	icon_state = "greenrusty"
 	},
 /area/space)
+"Bs" = (
+/obj/structure/table/booth,
+/obj/item/gun/ballistic/revolver/russian{
+	pixel_y = -4;
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 11;
+	pixel_y = 16
+	},
+/obj/item/export/bottle/whiskey{
+	pixel_x = -2;
+	pixel_y = 14
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "Bv" = (
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /turf/open/floor/plasteel/f13{
@@ -3208,6 +3935,22 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"Bz" = (
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 8;
+	pixel_x = 21;
+	pixel_y = -2;
+	density = 0
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "BC" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/desert/harsh{
@@ -3220,6 +3963,27 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/space)
+"BM" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
+"BT" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/mob/living/simple_animal/hostile/gecko{
+	faction = list("neutral");
+	desc = "An absolutely braindead gecko, even by gecko standards.  He seems oddly docile.";
+	name = "Stinky Pete"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "BU" = (
 /obj/machinery/light{
 	dir = 4;
@@ -3326,15 +4090,28 @@
 	},
 /area/space)
 "CA" = (
-/obj/structure/flora/grass/wasteland,
-/turf/closed/mineral/random/low_chance,
-/area/space)
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "CB" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
 	icon_state = "greenrusty"
 	},
 /area/space)
+"CC" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "CJ" = (
 /obj/structure/car/rubbish2,
 /turf/open/floor/plating/f13/outside/road{
@@ -3374,6 +4151,14 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"CU" = (
+/obj/structure/obstacle/barbedwire/end{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "CV" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
@@ -3393,6 +4178,17 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"Dc" = (
+/obj/effect/decal/marking{
+	icon_state = "doublevertical"
+	},
+/mob/living/simple_animal/hostile/gecko,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Dg" = (
 /obj/item/stack/sheet/bone,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -3447,6 +4243,17 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/sunset/brick_small_dark,
 /area/space)
+"Dv" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Dw" = (
 /obj/structure/wreck/trash/machinepile{
 	pixel_x = -7;
@@ -3538,6 +4345,21 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
+"DZ" = (
+/obj/effect/decal/marking,
+/mob/living/simple_animal/hostile/gecko{
+	resize = .7;
+	name = "Chonklette";
+	color = "#ff0000";
+	desc = "Scrawny looking red gecko, not very chonky.";
+	health = 30
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Ed" = (
 /obj/structure/rack/large/shelf_rust,
 /obj/effect/decal/cleanable/dirt,
@@ -3627,6 +4449,17 @@
 	dir = 8
 	},
 /area/space)
+"EF" = (
+/obj/effect/decal/marking{
+	icon_state = "doublevertical"
+	},
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "EM" = (
 /turf/open/indestructible/ground/outside/dirt/harsh{
 	dir = 8;
@@ -3634,6 +4467,19 @@
 	tag = "icon-dirtcorner (WEST)"
 	},
 /area/space)
+"EO" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = -15;
+	density = 0
+	},
+/obj/structure/obstacle/barbedwire/end{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "ET" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/decal/cleanable/dirt,
@@ -3641,6 +4487,14 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"EV" = (
+/obj/structure/table,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "EX" = (
 /obj/structure/punji_sticks,
 /turf/open/indestructible/ground/outside/desert/harsh,
@@ -3687,6 +4541,12 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"Fj" = (
+/obj/structure/fence,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "Fm" = (
 /obj/item/storage/box/handcuffs,
 /obj/structure/rack/large/shelf_rust,
@@ -3700,6 +4560,24 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Fw" = (
+/obj/structure/fence{
+	dir = 4;
+	max_integrity = 500;
+	name = "reinforced fence"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
+"Fx" = (
+/obj/machinery/door/poddoor/gate{
+	id = "firetowergate"
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "Fy" = (
 /obj/effect/landmark/start/f13/slave,
 /turf/open/floor/plasteel/f13/stone/rugged,
@@ -3708,6 +4586,26 @@
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/indestructible,
 /area/space)
+"FC" = (
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
+"FG" = (
+/obj/effect/decal/marking{
+	icon_state = "doubleverticalcorroded"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "FH" = (
 /obj/effect/overlay/junk/oldpipes,
 /turf/open/indestructible/ground/outside/dirt/harsh/corner{
@@ -3754,6 +4652,13 @@
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"FU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "FV" = (
 /obj/structure/closet/crate/large,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
@@ -3876,6 +4781,14 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"GI" = (
+/obj/structure/wreck/car{
+	desc = "An old pre-war car rusted and destroyed with age and weathering.  This one seems to have been used for quite a bit of target practice, with an uncountable number of bullet holes in it."
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "GJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -3928,6 +4841,16 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/space)
+"Hf" = (
+/obj/machinery/light/small/broken{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Hg" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /obj/structure/table/wood/junk,
@@ -3942,6 +4865,12 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
+"Hl" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/water,
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Hn" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
@@ -3998,6 +4927,22 @@
 /obj/structure/flora/grass/jungle/b,
 /turf/open/indestructible/ground/outside/dirt/harsh,
 /area/space)
+"HE" = (
+/obj/machinery/chem_dispenser/drinks{
+	dir = 8;
+	pixel_x = 21;
+	pixel_y = 2;
+	density = 0
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "HI" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -4192,6 +5137,13 @@
 "IN" = (
 /turf/open/indestructible/ground/inside/dirt,
 /area/space)
+"IS" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft1"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "IW" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -4201,6 +5153,22 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"IZ" = (
+/obj/structure/car/rubbish3,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
+"Ja" = (
+/obj/structure/fence/door/opened{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "Jb" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 5
@@ -4217,9 +5185,39 @@
 	icon_state = "verticalleftborderleft1"
 	},
 /area/space)
+"Jj" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/mirror{
+	pixel_x = -24
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "Jp" = (
 /turf/open/indestructible/ground/outside/dirt/harsh/side,
 /area/space)
+"Jr" = (
+/obj/effect/decal/cleanable/oil{
+	pixel_x = 13;
+	pixel_y = 15
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
+"Js" = (
+/obj/structure/obstacle/barbedwire/end{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "Jx" = (
 /obj/effect/spawner/lootdrop/tool_box,
 /turf/open/floor/f13{
@@ -4259,6 +5257,14 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"JU" = (
+/obj/structure/fence/corner{
+	dir = 5
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "JV" = (
 /obj/structure/simple_door/metal/barred{
 	name = "Slave Pen"
@@ -4279,6 +5285,30 @@
 /obj/structure/table/wood/junk,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"Ka" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = -15;
+	density = 0
+	},
+/obj/structure/obstacle/barbedwire{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
+"Kc" = (
+/obj/structure/stairs/east{
+	dir = 8
+	},
+/obj/structure/railing{
+	color = "#A47449"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "Kd" = (
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -4398,6 +5428,27 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"KX" = (
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
+"Lc" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Ld" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /obj/effect/decal/cleanable/dirt,
@@ -4438,10 +5489,23 @@
 	icon_state = "graveldirtedge"
 	},
 /area/space)
+"Lm" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Ln" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/village{
 	name = "Overpass Village - Trailer"
+	})
+"Ls" = (
+/obj/structure/simple_door/interior,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
 	})
 "Lz" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -4457,6 +5521,11 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"LG" = (
+/turf/closed/wall/f13/wood/house,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "LH" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/pill/patch/healingpowder,
@@ -4473,9 +5542,25 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"LO" = (
+/obj/structure/chair/right{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "LQ" = (
 /turf/closed/wall/f13/sunset/brick_small,
 /area/space)
+"LZ" = (
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "Mh" = (
 /obj/structure/chair/bench,
 /turf/open/floor/carpet/black,
@@ -4677,6 +5762,14 @@
 	tag = "icon-dirt (WEST)"
 	},
 /area/space)
+"Nq" = (
+/mob/living/simple_animal/hostile/gecko,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Ns" = (
 /obj/effect/spawner/lootdrop/f13/resourcespawner,
 /obj/effect/decal/cleanable/dirt,
@@ -4709,6 +5802,17 @@
 /area/f13/village{
 	name = "Overpass Village - Lower"
 	})
+"NK" = (
+/obj/structure/barricade/wooden,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "NL" = (
 /obj/item/reagent_containers/blood/radaway,
 /obj/structure/rack/large/shelf_rust,
@@ -4735,6 +5839,15 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"NV" = (
+/obj/structure/chair/right,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "NZ" = (
 /turf/open/floor/carpet/black,
 /area/space)
@@ -4764,6 +5877,15 @@
 	icon_state = "crossborderroundmid"
 	},
 /area/space)
+"Od" = (
+/obj/structure/fence/door/opened{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "Oe" = (
 /turf/open/indestructible/ground/outside/graveldirt{
 	icon_state = "graveldirtedge"
@@ -4830,6 +5952,13 @@
 	icon_state = "yellowrustychess"
 	},
 /area/space)
+"OA" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "OC" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /turf/open/floor/plasteel/f13{
@@ -4910,6 +6039,23 @@
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"Pu" = (
+/obj/structure/urinal{
+	dir = 8;
+	pixel_x = 30
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
+"Pv" = (
+/obj/machinery/vending/cola,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Px" = (
 /obj/machinery/mineral/ore_redemption,
 /turf/open/indestructible/ground/inside/mountain,
@@ -4979,6 +6125,33 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"PP" = (
+/obj/machinery/shower{
+	pixel_y = 17
+	},
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
+"PX" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
+"Qg" = (
+/obj/structure/fence/corner{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "Qk" = (
 /obj/structure/fence/wooden{
 	dir = 1;
@@ -5072,6 +6245,11 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"QK" = (
+/turf/open/space/basic,
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "QM" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/f13{
@@ -5093,6 +6271,26 @@
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"QQ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
+"QT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
+"QW" = (
+/obj/structure/barricade/wooden,
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "QZ" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	pixel_y = 6
@@ -5101,6 +6299,14 @@
 	dir = 1
 	},
 /area/space)
+"Rd" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Re" = (
 /obj/effect/spawner/lootdrop/f13/crafting,
 /obj/effect/decal/cleanable/dirt,
@@ -5113,11 +6319,25 @@
 /obj/effect/decal/riverbank,
 /turf/open/indestructible/ground/outside/water,
 /area/space)
+"Rj" = (
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Rl" = (
 /obj/structure/table/wood/junk,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"Rm" = (
+/obj/structure/fence,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/wasteland/west{
+	name = "Rocksprings - Firetower Lower"
+	})
 "Rn" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -5234,6 +6454,17 @@
 	icon_state = "horizontalinnermain2left"
 	},
 /area/space)
+"Sh" = (
+/obj/structure/table/booth,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Sj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -5260,6 +6491,13 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Sq" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "St" = (
 /obj/item/flashlight/flare,
 /obj/item/flashlight/flare,
@@ -5302,6 +6540,11 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
+"SI" = (
+/turf/open/water,
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "SK" = (
 /obj/structure/fence/corner{
 	dir = 8;
@@ -5340,6 +6583,18 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"SX" = (
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -8
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Ta" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -5361,11 +6616,37 @@
 	icon_state = "floorrusty"
 	},
 /area/space)
+"Tc" = (
+/obj/structure/car/rubbish3{
+	icon_state = "car_rubish2"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Td" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
+"Th" = (
+/obj/structure/fence/wooden{
+	dir = 1;
+	pixel_x = -15;
+	density = 0
+	},
+/obj/machinery/button/door{
+	id = "firetowergate";
+	name = "Gate button";
+	pixel_x = -14;
+	pixel_y = -3
+	},
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/f13/building{
+	name = "Building - Firetower Lower"
+	})
 "Tj" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag,
@@ -5433,6 +6714,14 @@
 	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/space)
+"TA" = (
+/obj/structure/car/rubbish3,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "TB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/drip,
@@ -5441,6 +6730,13 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"TC" = (
+/obj/structure/table,
+/obj/structure/table,
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "TD" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop1"
@@ -5452,6 +6748,20 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"TN" = (
+/mob/living/simple_animal/hostile/gecko{
+	resize = .7;
+	name = "Chonklette";
+	color = "#ff0000";
+	desc = "Scrawny looking red gecko, not very chonky.";
+	health = 30
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "TO" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
@@ -5481,6 +6791,13 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/space)
+"Uf" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Ug" = (
 /obj/structure/decoration/rag,
 /obj/structure/barricade/wooden/planks,
@@ -5547,6 +6864,14 @@
 	icon_state = "dirtcorner"
 	},
 /area/space)
+"Uy" = (
+/obj/machinery/mineral/wasteland_vendor/attachments{
+	icon_state = "weapon_idle"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "UA" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
@@ -5590,6 +6915,19 @@
 	},
 /turf/open/indestructible/ground/inside/dirt,
 /area/space)
+"UI" = (
+/obj/structure/chair/left{
+	dir = 1
+	},
+/obj/machinery/light/small/broken{
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "UK" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -5599,6 +6937,16 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"UL" = (
+/obj/effect/decal/marking{
+	icon_state = "doubleverticalcorroded"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "UM" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -5692,6 +7040,14 @@
 	dir = 1
 	},
 /area/space)
+"Vs" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/closed/wall/f13/wood/house,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "Vz" = (
 /obj/structure/bed/old,
 /obj/item/blanket/blanketalt,
@@ -5734,6 +7090,16 @@
 /obj/effect/overlay/junk/oldpipes,
 /turf/open/indestructible/ground/outside/dirt/harsh/corner,
 /area/space)
+"Wd" = (
+/obj/structure/car/rubbish3{
+	icon_state = "car_rubish2"
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft1"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Wg" = (
 /obj/effect/overlay/junk/oldpipes,
 /turf/open/indestructible/ground/outside/dirt/harsh/corner{
@@ -5748,6 +7114,16 @@
 	icon_state = "greendirtysolid"
 	},
 /area/space)
+"Wl" = (
+/obj/structure/reagent_dispensers/barrel/three{
+	pixel_x = -13
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Wr" = (
 /turf/open/floor/f13/wood,
 /area/space)
@@ -5871,6 +7247,14 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/space)
+"XJ" = (
+/obj/machinery/vending/cola/random,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "XM" = (
 /obj/structure/junk/cabinet,
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -5926,6 +7310,18 @@
 /obj/item/blanket,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"Yj" = (
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -8
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Yk" = (
 /mob/living/simple_animal/hostile/raider/ranged/biker{
 	name = "Razor Twins Raider"
@@ -5934,6 +7330,17 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"Yl" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Yn" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/structure/table/wood/junk,
@@ -5960,6 +7367,14 @@
 	},
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"Yv" = (
+/mob/living/simple_animal/hostile/gecko,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Yw" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
 /turf/open/floor/plasteel/f13{
@@ -6003,6 +7418,23 @@
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/village{
 	name = "Overpass Village - Lower"
+	})
+"YN" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
+"YO" = (
+/obj/structure/window/fulltile/house,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
 	})
 "YS" = (
 /mob/living/simple_animal/hostile/raider/firefighter{
@@ -6057,6 +7489,17 @@
 	icon_state = "greenrustychess"
 	},
 /area/space)
+"Zj" = (
+/obj/machinery/vending/boozeomat,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "Zk" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier1,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -6069,11 +7512,36 @@
 /obj/effect/spawner/lootdrop/f13/cash_legion_low,
 /turf/open/floor/plasteel/f13/stone/rugged,
 /area/space)
+"Zq" = (
+/obj/structure/lamp_post/doubles/bent{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0"
+	},
+/area/f13/building{
+	name = "Rocksprings - Tunnel"
+	})
 "Zs" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2"
 	},
 /area/space)
+"ZC" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/structure/mirror{
+	pixel_x = -24
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/village{
+	name = "Rockspring - Tunnel Rest Stop"
+	})
 "ZE" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag{
@@ -6092,6 +7560,10 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
 /turf/open/indestructible/ground/outside/road,
 /area/space)
+"ZI" = (
+/obj/structure/tires/two,
+/turf/open/indestructible/ground/outside/desert/harsh,
+/area/space)
 "ZJ" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
@@ -6100,6 +7572,13 @@
 	icon_state = "floorgrime"
 	},
 /area/space)
+"ZL" = (
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0"
+	},
+/area/f13/village{
+	name = "Rockspring - Tunnel Diner"
+	})
 "ZM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -28121,11 +29600,11 @@ bS
 bS
 bS
 bS
+bS
+bS
 Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
 bS
 bS
 bS
@@ -28378,11 +29857,11 @@ bS
 bS
 bS
 bS
+bS
+bS
 Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
 bS
 bS
 bS
@@ -28635,11 +30114,11 @@ bS
 bS
 bS
 bS
+bS
+bS
 Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
 bS
 bS
 bS
@@ -28891,19 +30370,19 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+LG
+LG
+LG
+QW
+LG
+LG
+LG
+LG
+LG
+LG
+LG
+LG
+LG
 bS
 bS
 bS
@@ -29142,25 +30621,25 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+LG
+Kc
+nv
+LZ
+TC
+sy
+LG
+ZC
+LG
+PP
+LG
+mC
+LG
 bS
 bS
 bS
@@ -29399,25 +30878,25 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+LG
+LZ
+LZ
+LZ
+BM
+BM
+Ls
+BM
+BM
+BM
+Ls
+BM
+LG
 bS
 bS
 bS
@@ -29656,25 +31135,25 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+LG
+wH
+BM
+BM
+kD
+LZ
+LG
+LG
+Vs
+Vs
+Vs
+LG
+LG
 bS
 bS
 bS
@@ -29907,31 +31386,31 @@ Iv
 Iv
 Iv
 Iv
-Iv
+tc
 Iv
 Iv
 Iv
 hj
 Iv
-Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+fN
+LG
+Ap
+gI
+BM
+LZ
+BM
+yM
+Jj
+BT
+gI
+yM
+BM
+LG
 bS
 bS
 bS
@@ -30170,25 +31649,25 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
 bS
 bS
 bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+LG
+Uy
+LZ
+BM
+nv
+nv
+LG
+Pu
+LG
+PP
+LG
+nj
+LG
 bS
 bS
 bS
@@ -30433,19 +31912,19 @@ bS
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+LG
+pG
+pG
+hV
+LG
+LG
+LG
+LG
+LG
+LG
+LG
+LG
+LG
 bS
 bS
 bS
@@ -30683,37 +32162,37 @@ fc
 fc
 fc
 fc
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-fc
-fc
-fc
-fc
-fc
+OA
+IS
+IS
+IS
+IS
+lA
+IS
+IS
+IS
+IS
+Wd
+IS
+IS
+IS
+IS
+IS
+IS
+IS
+IS
+lA
+IS
+IS
+IS
+IS
+IS
+IS
+lA
+IS
+IS
+IS
+OA
 fc
 fc
 fc
@@ -30940,37 +32419,37 @@ BK
 BK
 BK
 BK
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-BK
-BK
-BK
-BK
-BK
+oR
+tH
+vU
+FC
+tH
+tH
+CC
+tH
+tH
+tH
+tH
+Yj
+Yj
+tH
+tH
+tH
+tH
+tH
+CC
+tH
+FC
+tH
+tH
+tH
+vU
+tH
+tH
+tH
+tH
+tH
+fV
 BK
 BK
 Zs
@@ -31196,37 +32675,37 @@ nL
 nL
 nL
 nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
-nL
-nL
-nL
-nL
+tH
+QK
+tH
+vU
+FC
+tO
+FC
+FC
+tH
+tH
+tH
+tH
+Yj
+Yj
+tH
+tO
+tH
+tH
+tH
+tH
+tH
+tH
+FC
+Rd
+tH
+vU
+tH
+IZ
+tH
+tH
+tH
 nL
 nL
 nL
@@ -31453,36 +32932,36 @@ nL
 nL
 nL
 nL
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
-nL
-nL
-nL
-Ik
+tH
+tH
+tH
+tH
+Yv
+tH
+tH
+tH
+Nq
+FC
+wp
+tH
+Yj
+xU
+tH
+tH
+FC
+wp
+tH
+tH
+tH
+Tc
+tH
+bF
+tH
+NK
+CC
+tH
+tH
+tO
 nL
 nL
 nL
@@ -31710,36 +33189,36 @@ nL
 nL
 nL
 Ik
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
-nL
-nL
-nL
-nL
-nL
+tH
+tH
+NK
+CC
+CC
+CC
+tx
+tH
+Rd
+tH
+tH
+tH
+Yj
+SX
+CC
+CC
+tH
+FC
+CC
+tH
+wp
+tH
+tH
+tH
+FC
+FC
+FC
+tH
+tH
+vU
 nL
 nL
 nL
@@ -31961,42 +33440,42 @@ nL
 nL
 nL
 nL
+Ik
 nL
 nL
 nL
 nL
 nL
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
-nL
-nL
-nL
-nL
-nL
+tH
+tH
+tH
+tH
+tH
+tH
+Tc
+tH
+dR
+tH
+tH
+tH
+Yj
+yd
+CC
+Yv
+tH
+Hl
+SI
+PX
+tH
+tH
+CC
+lC
+CC
+lG
+tH
+tH
+vU
+tH
 nL
 nL
 nL
@@ -32224,35 +33703,35 @@ zN
 zN
 zN
 zN
-He
-He
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-He
-bS
-bS
-zN
-zN
+FG
+EF
+kZ
+EF
+kZ
+kZ
+kZ
+UL
+kZ
+kZ
+kF
+kZ
+Dc
+kF
+UL
+kZ
+kZ
+SI
+SI
+SI
+kZ
+kZ
+kF
+kZ
+kZ
+kZ
+EF
+UL
+kZ
 zN
 zN
 zN
@@ -32481,35 +33960,35 @@ nL
 nL
 nL
 nL
-nL
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
-nL
+tH
+CC
+tH
+tH
+vU
+FC
+FC
+FC
+tH
+tH
+tH
+CC
+Yj
+yd
+tH
+Tc
+tH
+Hl
+SI
+SI
+Yl
+tH
+tH
+CC
+CC
+tH
+tH
+tH
+tH
 nL
 nL
 Ik
@@ -32737,35 +34216,35 @@ nL
 nL
 nL
 nL
-nL
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Ik
+tH
+tH
+CC
+IZ
+tH
+tH
+FC
+tH
+Yv
+FC
+FC
+CC
+tH
+Yj
+Yj
+tH
+tH
+tH
+FC
+tH
+Yl
+tH
+tH
+tH
+tH
+ca
+CC
+Yv
+tH
 nL
 nL
 nL
@@ -32994,35 +34473,35 @@ nL
 nL
 nL
 nL
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
+tH
+tH
+tH
+tH
+vU
+tH
+tH
+lC
+tH
+CC
+tH
+FC
+tH
+SX
+tZ
+tH
+CC
+tH
+tH
+CC
+Yv
+tH
+tH
+tH
+tH
+tH
+NK
+CC
+vU
 nL
 nL
 nL
@@ -33251,34 +34730,34 @@ nL
 nL
 nL
 nL
-nL
-nL
-nL
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-nL
+vU
+CC
+FC
+tH
+vU
+tH
+tO
+tH
+tH
+Wl
+tH
+tO
+FC
+Yj
+Yj
+tH
+CC
+tH
+Rd
+tH
+tH
+FC
+tO
+tH
+tH
+tH
+vU
+tH
 nL
 nL
 nL
@@ -33508,34 +34987,34 @@ Nn
 Nn
 Nn
 Nn
-Nn
-Nn
-Nn
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Nn
+wI
+CC
+tH
+vU
+vU
+tH
+FC
+FC
+FC
+tH
+tH
+tH
+tH
+Yj
+Yj
+tH
+tH
+tH
+FC
+CC
+FC
+Wl
+tH
+tH
+tH
+tH
+vU
+hY
 Nn
 Nn
 Nn
@@ -33765,34 +35244,34 @@ rs
 rs
 rs
 rs
-rs
-rs
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
-Dh
+OA
+qM
+Sq
+Sq
+Zq
+Sq
+Sq
+Sq
+Sq
+Sq
+Zq
+Sq
+Sq
+Sq
+Sq
+ft
+tH
+FC
+tH
+CC
+tH
+hY
+Sq
+Sq
+Zq
+Sq
+Sq
+OA
 rs
 rs
 rs
@@ -34025,24 +35504,24 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+uV
+Uf
+Uf
+Uf
+Uf
+Lm
+KX
+sm
+sm
+fQ
+ZL
 bS
 bS
 bS
@@ -34055,7 +35534,7 @@ Iv
 Iv
 Iv
 Iv
-Iv
+tc
 Iv
 Iv
 Iv
@@ -34282,24 +35761,24 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+xW
+YO
+YO
+YO
+xW
+YO
+YO
+YO
+xW
+YO
+YO
+xW
+Lm
+Rj
+ZL
+ZL
+fQ
+ZL
 bS
 bS
 bS
@@ -34539,24 +36018,24 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+xW
+NV
+qd
+UI
+CA
+NV
+qd
+UI
+NV
+qd
+UI
+YO
+XJ
+Rj
+fQ
+ZL
+fQ
+YN
 bS
 bS
 bS
@@ -34796,24 +36275,24 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+xW
+oJ
+qd
+LO
+qO
+oJ
+qd
+LO
+oJ
+Sh
+LO
+YO
+Pv
+ne
+uf
+sm
+fQ
+ZL
 bS
 bS
 bS
@@ -35053,24 +36532,24 @@ Iv
 bS
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
+xW
+CA
+gn
+gn
+Lc
+Lc
+Lc
+gn
+gn
+CA
+CA
+mA
+Lm
+nH
+fQ
+TN
+ZL
+vQ
 bS
 bS
 bS
@@ -35310,26 +36789,26 @@ Iv
 bS
 bS
 bS
+xW
+up
+CA
+CA
+CA
+CA
+CA
+gn
+Dv
+gn
+gn
+mA
+jo
+nH
+TN
+rU
+ZL
+ZL
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
 Iv
 Iv
 Iv
@@ -35567,26 +37046,26 @@ Iv
 bS
 bS
 bS
+xW
+CA
+CA
+zI
+cD
+Zj
+jy
+kB
+kB
+EV
+CA
+YO
+cg
+ne
+sm
+DZ
+ZL
+ZL
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
 Iv
 Iv
 Iv
@@ -35823,27 +37302,27 @@ Iv
 Iv
 bS
 bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
-bS
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+mA
+CA
+CA
+gn
+gn
+Hf
+gn
+Bz
+HE
+EV
+iQ
+YO
+Lm
+Rj
+TA
+ZL
+ZL
+vQ
+bS
+bS
 Iv
 Iv
 Iv
@@ -36081,26 +37560,26 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+xW
+xW
+xW
+xW
+xW
+xW
+xW
+xW
+xW
+xW
+xW
+xW
+Lm
+Rj
+ZL
+ZL
+ZL
+ZL
 bS
 bS
-bS
-CA
-bS
-bS
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
 Iv
 Iv
 Iv
@@ -36337,27 +37816,27 @@ Iv
 AI
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -36594,25 +38073,25 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -36851,18 +38330,18 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -37115,11 +38594,11 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+bS
+bS
+bS
+bS
+bS
 Iv
 Iv
 Iv
@@ -41256,17 +42735,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Qg
+Fj
+Fj
+Fj
+Fj
+Ja
+Fj
+Fj
+Fj
+Fj
+Qg
 Iv
 Iv
 Iv
@@ -41513,17 +42992,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-lL
-Iv
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
+Fw
+QQ
+QQ
+yH
+yH
+QQ
+yH
+QQ
+QQ
+GI
+Fw
 Iv
 Iv
 Iv
@@ -41770,17 +43249,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+yH
+yH
+QQ
+QQ
+QQ
+yH
+yH
+yH
+QQ
+Fw
 Iv
 AI
 Iv
@@ -42025,19 +43504,19 @@ Iv
 Iv
 Iv
 Iv
-AI
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+yH
+Js
+CU
+QT
+yT
+uG
+Js
+yH
+QQ
+Fw
 Iv
 Iv
 Iv
@@ -42284,17 +43763,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+yH
+Ka
+cv
+cv
+yT
+Th
+od
+QQ
+FU
+Fw
 Iv
 Iv
 Iv
@@ -42541,17 +44020,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+QQ
+od
+cv
+vA
+yT
+cv
+od
+yH
+QQ
+Fw
 Iv
 Iv
 Iv
@@ -42798,17 +44277,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Tk
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-hj
-Iv
+Fw
+QQ
+od
+cv
+Bs
+Bd
+cv
+od
+yH
+QQ
+Fx
 Iv
 Iv
 Iv
@@ -43055,17 +44534,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+QQ
+od
+cv
+dB
+yT
+cv
+od
+QQ
+QQ
+yH
 Iv
 Iv
 Iv
@@ -43310,19 +44789,19 @@ Iv
 Iv
 Iv
 Iv
-AI
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+QQ
+od
+cv
+cv
+yT
+kd
+od
+QQ
+yH
+yH
 Iv
 Iv
 Iv
@@ -43569,17 +45048,17 @@ Iv
 Iv
 Iv
 Iv
-hj
-Iv
-Iv
-Iv
-Iv
-AI
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+yH
+EO
+CU
+cv
+yT
+jZ
+dE
+QQ
+yH
+Fw
 Iv
 Iv
 Iv
@@ -43825,18 +45304,18 @@ Iv
 Iv
 Iv
 Iv
-AI
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+yH
+QQ
+yH
+yH
+QQ
+QQ
+QQ
+QQ
+yH
+Fw
 Iv
 Iv
 AI
@@ -44083,17 +45562,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+Fw
+QQ
+QQ
+yH
+yH
+QQ
+QQ
+QQ
+yH
+yH
+Fw
 Iv
 Iv
 Iv
@@ -44340,17 +45819,17 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
+JU
+Rm
+Fj
+Fj
+Fj
+Od
+Rm
+Rm
+Fj
+Fj
+eY
 Iv
 Iv
 Iv
@@ -44603,9 +46082,9 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
-Iv
+et
+Jr
+mg
 Iv
 Iv
 Iv
@@ -44861,8 +46340,8 @@ Iv
 Iv
 Iv
 Iv
-Iv
-Iv
+fF
+ZI
 Iv
 Iv
 Iv
@@ -45369,7 +46848,7 @@ Iv
 Iv
 Iv
 Iv
-AI
+Iv
 Iv
 Iv
 Iv
@@ -47413,7 +48892,7 @@ KK
 Av
 Av
 Av
-Av
+kW
 Av
 Av
 Av
